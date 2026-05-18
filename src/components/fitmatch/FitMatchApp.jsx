@@ -169,6 +169,7 @@ export default function FitMatchApp() {
         seed: m.seed,
         imageUrl: m.imageUrl,
         distribution: m.distribution,
+        items: m.items,
       }));
 
       setMatches(shaped);

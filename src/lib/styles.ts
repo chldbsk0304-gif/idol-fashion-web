@@ -19,6 +19,15 @@ export interface AnalyzeResponse {
   brief_analysis: string;
 }
 
+// One worn product to surface in the result page's product carousel.
+export interface IdolItem {
+  brand: string | null;
+  productName: string | null;
+  style: string | null;
+  imageUrl: string | null;
+  postUrl: string | null;
+}
+
 // Match endpoint contract
 export interface MatchedIdol {
   name: string;            // identifier (Korean name used as DB key)
@@ -31,6 +40,8 @@ export interface MatchedIdol {
   imageUrl?: string;
   distribution: StyleDistribution;
   totalItems: number;
+  /** Up to ~12 worn items, primary-style first. Only set on the top match. */
+  items?: IdolItem[];
 }
 
 export interface MatchResponse {

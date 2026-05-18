@@ -15,14 +15,43 @@
 import React from 'react';
 import { COLORS, CTA, IdolPortraitOrPhoto, PixelCross } from './ui';
 
+// Make sure every <img> inside the capture node has actually finished
+// downloading. html2canvas will skip half-loaded images silently.
+async function waitForImages(node) {
+  const imgs = Array.from(node.querySelectorAll('img'));
+  await Promise.all(
+    imgs.map((img) =>
+      img.complete && img.naturalWidth > 0
+        ? Promise.resolve()
+        : new Promise((res) => {
+            img.addEventListener('load', res, { once: true });
+            img.addEventListener('error', res, { once: true });
+          }),
+    ),
+  );
+}
+
+// Renders the on-screen 9:16 preview to a 1080px-wide PNG. We don't build a
+// separate offscreen DOM — the visible card already holds the right aspect
+// ratio, so we just scale the canvas resolution up.
 async function renderCardToBlob(node) {
-  // Defer-load html2canvas only when needed (keeps initial bundle small).
+  if (document.fonts && document.fonts.ready) {
+    try { await document.fonts.ready; } catch { /* best-effort */ }
+  }
+  await waitForImages(node);
+
   const html2canvas = (await import('html2canvas')).default;
+  const rect = node.getBoundingClientRect();
+  const targetWidth = 1080; // Instagram story standard
+  const scale = rect.width > 0 ? targetWidth / rect.width : 2;
+
   const canvas = await html2canvas(node, {
     backgroundColor: null,
-    scale: 2,
+    scale,
     useCORS: true,
+    allowTaint: false,
     logging: false,
+    imageTimeout: 8000,
   });
   return await new Promise((resolve) => canvas.toBlob((b) => resolve(b), 'image/png', 0.95));
 }

@@ -4,7 +4,7 @@
 // props (matches, userDistribution) instead of the prototype's globals.
 
 import React from 'react';
-import { COLORS, CTA, IdolPortraitOrPhoto } from './ui';
+import { COLORS, CTA, IdolPortraitOrPhoto, proxiedImage } from './ui';
 
 export default function ResultScreen({
   matches,
@@ -20,7 +20,22 @@ export default function ResultScreen({
 
   const userDist = userDistribution;
   const idolDist = primary.distribution;
-  const keys = Array.from(new Set([...Object.keys(userDist), ...Object.keys(idolDist)]));
+
+  // Distribution table: drop rows where BOTH sides are 0 (visual noise), sort
+  // by user value desc then idol value desc, but always keep at least 3 rows so
+  // the comparison still reads as a comparison.
+  const distKeys = React.useMemo(() => {
+    const union = Array.from(new Set([...Object.keys(userDist), ...Object.keys(idolDist)]));
+    const scored = union.map((k) => ({
+      k,
+      u: userDist[k] || 0,
+      i: idolDist[k] || 0,
+    }));
+    scored.sort((a, b) => (b.u - a.u) || (b.i - a.i));
+    const nonZero = scored.filter((r) => r.u > 0 || r.i > 0);
+    const result = nonZero.length >= 3 ? nonZero : scored.slice(0, 3);
+    return result.map((r) => r.k);
+  }, [userDist, idolDist]);
 
   const [step, setStep] = React.useState(0);
   React.useEffect(() => {
@@ -187,7 +202,7 @@ export default function ResultScreen({
               <Header text="YOU" />
               <Header text={(primary.nameKr || primary.name || '').toUpperCase()} accent />
 
-              {keys.map((k) => (
+              {distKeys.map((k) => (
                 <DistRow key={k}
                   label={k}
                   you={userDist[k] || 0}
@@ -199,56 +214,60 @@ export default function ResultScreen({
         )}
       </div>
 
+      {step >= 5 && Array.isArray(primary.items) && primary.items.length > 0 && (
+        <ProductCarousel idolName={primary.nameKr} items={primary.items} />
+      )}
+
       {step >= 5 && others.length > 0 && (
         <div className="rise" style={{ padding: '22px 20px 0' }}>
           <div style={{
             fontFamily: 'JetBrains Mono, monospace',
             fontSize: 9, letterSpacing: 2, color: COLORS.muted,
-            marginBottom: 10,
+            marginBottom: 12,
             display: 'flex', alignItems: 'center', gap: 8,
           }}>
             <span style={{ flex: 1, height: 1, background: COLORS.line }} />
-            <span>NEXT&nbsp;MATCHES</span>
+            <span>OTHER&nbsp;MATCHES</span>
             <span style={{ flex: 1, height: 1, background: COLORS.line }} />
           </div>
           <div style={{
-            display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10,
+            display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap',
           }}>
             {others.map((m) => {
               const realIdx = all.indexOf(m);
               return (
                 <button key={m.name || m.nameKr} onClick={() => setPrimaryIdx(realIdx)} style={{
-                  background: COLORS.surface,
-                  border: `1px solid ${COLORS.line}`,
+                  background: 'transparent',
+                  border: 'none',
                   padding: 0,
-                  borderRadius: 12,
                   cursor: 'pointer',
-                  overflow: 'hidden',
-                  textAlign: 'left',
                   color: COLORS.text,
                   fontFamily: 'inherit',
-                  display: 'flex', flexDirection: 'column',
+                  display: 'flex', flexDirection: 'column', alignItems: 'center',
+                  gap: 6,
+                  width: 96,
                 }}>
-                  <IdolPortraitOrPhoto seed={m.seed} imageUrl={m.imageUrl} ratio="1 / 1" />
-                  <div style={{ padding: '10px 12px' }}>
-                    <div style={{
-                      fontFamily: 'JetBrains Mono, monospace',
-                      fontSize: 9, letterSpacing: 1.6,
-                      color: COLORS.muted,
-                    }}>{m.group}</div>
-                    <div style={{
-                      display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
-                      marginTop: 2,
-                    }}>
-                      <span style={{
-                        fontWeight: 700, fontSize: 15, color: COLORS.text,
-                      }}>{m.nameKr}</span>
-                      <span style={{
-                        fontFamily: 'JetBrains Mono, monospace',
-                        fontSize: 12, color: COLORS.accent, fontWeight: 600,
-                      }}>{Math.round(m.score * 100)}%</span>
-                    </div>
+                  <div style={{
+                    width: 80, height: 80, borderRadius: '50%',
+                    overflow: 'hidden',
+                    border: `1px solid ${COLORS.line}`,
+                  }}>
+                    <IdolPortraitOrPhoto seed={m.seed} imageUrl={m.imageUrl} ratio="1 / 1" />
                   </div>
+                  <div style={{
+                    fontFamily: 'JetBrains Mono, monospace',
+                    fontSize: 8, letterSpacing: 1.4, color: COLORS.muted,
+                    lineHeight: 1.2,
+                  }}>{m.group}</div>
+                  <div style={{
+                    fontWeight: 700, fontSize: 13, color: COLORS.text,
+                    marginTop: -2,
+                  }}>{m.nameKr}</div>
+                  <div style={{
+                    fontFamily: 'JetBrains Mono, monospace',
+                    fontSize: 11, color: COLORS.accent, fontWeight: 600,
+                    marginTop: -2,
+                  }}>{Math.round(m.score * 100)}%</div>
                 </button>
               );
             })}
@@ -278,6 +297,117 @@ export default function ResultScreen({
       </div>
     </div>
   );
+}
+
+function ProductCarousel({ idolName, items }) {
+  return (
+    <div className="rise" style={{ padding: '22px 0 0' }}>
+      <div style={{
+        padding: '0 20px',
+        fontFamily: 'JetBrains Mono, monospace',
+        fontSize: 9, letterSpacing: 2, color: COLORS.accent,
+        marginBottom: 12,
+      }}>
+        <span style={{ opacity: 0.6 }}>+ </span>
+        PRODUCTS · {idolName}이 착용한 아이템
+        <span style={{ opacity: 0.6 }}> +</span>
+      </div>
+      {/* Scroll snap horizontal carousel — peeks the next card so users see
+          it's swipable. No JS dependency. */}
+      <div
+        className="scroll"
+        style={{
+          display: 'flex',
+          gap: 10,
+          overflowX: 'auto',
+          scrollSnapType: 'x mandatory',
+          padding: '4px 20px 14px',
+          WebkitOverflowScrolling: 'touch',
+        }}
+      >
+        {items.map((it, i) => (
+          <ProductCard key={i} item={it} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function ProductCard({ item }) {
+  const [broken, setBroken] = React.useState(false);
+  const card = (
+    <div style={{
+      flex: '0 0 42%',
+      minWidth: 144,
+      maxWidth: 180,
+      scrollSnapAlign: 'start',
+      background: COLORS.surface,
+      border: `1px solid ${COLORS.line}`,
+      borderRadius: 10,
+      overflow: 'hidden',
+      display: 'flex', flexDirection: 'column',
+      textDecoration: 'none',
+      color: COLORS.text,
+    }}>
+      <div style={{
+        width: '100%', aspectRatio: '1 / 1',
+        background: '#0F1115',
+        position: 'relative',
+      }}>
+        {item.imageUrl && !broken ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={proxiedImage(item.imageUrl)}
+            alt={item.productName || ''}
+            crossOrigin="anonymous"
+            loading="lazy"
+            onError={() => setBroken(true)}
+            style={{
+              width: '100%', height: '100%', objectFit: 'cover',
+              display: 'block',
+            }}
+          />
+        ) : (
+          <div style={{
+            position: 'absolute', inset: 0,
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            fontFamily: 'JetBrains Mono, monospace',
+            fontSize: 10, letterSpacing: 1.4,
+            color: 'rgba(230,57,137,0.5)',
+            background: 'repeating-linear-gradient(45deg, transparent 0 8px, rgba(230,57,137,0.05) 8px 9px)',
+          }}>IMG.404</div>
+        )}
+      </div>
+      <div style={{ padding: '8px 10px 10px', minHeight: 56 }}>
+        <div style={{
+          fontFamily: 'JetBrains Mono, monospace',
+          fontSize: 9, letterSpacing: 1.2,
+          color: COLORS.accent,
+          textTransform: 'uppercase',
+          whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+        }}>{item.brand || '—'}</div>
+        <div style={{
+          fontFamily: 'Pretendard, sans-serif',
+          fontSize: 12, fontWeight: 600,
+          color: COLORS.text,
+          marginTop: 4,
+          lineHeight: 1.3,
+          display: '-webkit-box',
+          WebkitLineClamp: 2,
+          WebkitBoxOrient: 'vertical',
+          overflow: 'hidden',
+        }}>{item.productName || '제품명 미상'}</div>
+      </div>
+    </div>
+  );
+  if (item.postUrl) {
+    return (
+      <a href={item.postUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', flex: '0 0 auto' }}>
+        {card}
+      </a>
+    );
+  }
+  return card;
 }
 
 function Header({ text, accent }) {

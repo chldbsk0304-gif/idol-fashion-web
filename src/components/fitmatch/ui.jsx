@@ -23,6 +23,24 @@ export const STYLES_15 = [
   '고프코어', '레트로', '프레피', '리조트', '에스닉',
 ];
 
+// X CDN images aren't CORS-friendly, so we send them through /api/img which
+// adds CORS headers. Anything that's already same-origin or a data URL is
+// returned as-is.
+export function proxiedImage(url) {
+  if (!url) return url;
+  if (typeof url !== 'string') return url;
+  if (url.startsWith('data:') || url.startsWith('/api/img')) return url;
+  try {
+    const u = new URL(url);
+    if (u.hostname === 'pbs.twimg.com') {
+      return `/api/img?u=${encodeURIComponent(url)}`;
+    }
+  } catch {
+    /* not a parseable absolute URL — leave untouched */
+  }
+  return url;
+}
+
 // ──────────────────────────────────────────────────────────────────────────
 // Components — copied verbatim from the handoff bundle. Visual fidelity is
 // the contract: do not modify styling here without re-syncing with design.
@@ -204,10 +222,10 @@ export function IdolPortraitOrPhoto({ seed = 0, imageUrl, label, style, ratio = 
       borderRadius: 'inherit',
       ...style,
     }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={imageUrl}
+        src={proxiedImage(imageUrl)}
         alt=""
-        referrerPolicy="no-referrer"
         loading="lazy"
         crossOrigin="anonymous"
         style={{
