@@ -177,8 +177,14 @@ export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) 
         padding: '20px 30px 0',
       }}>
         <div ref={previewRef} style={{
-          width: '100%', aspectRatio: '9 / 16',
-          maxHeight: '54vh',
+          // Pin the height first; aspectRatio derives the width so the card
+          // is always 9:16. Without this, width:100% on a wide viewport made
+          // the card huge horizontally and maxHeight then cropped it,
+          // breaking the ratio. min() also caps the height on tall phones.
+          height: 'min(70vh, 560px)',
+          aspectRatio: '9 / 16',
+          width: 'auto',
+          maxWidth: '100%',
           background: '#0B1014',
           border: `1px solid ${COLORS.line}`,
           borderRadius: 18,
