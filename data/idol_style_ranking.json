@@ -1,0 +1,1667 @@
+{
+  "장원영": {
+    "group": "아이브",
+    "total_items": 12,
+    "full_distribution": {
+      "걸리시": 4,
+      "스트릿": 2,
+      "캐주얼": 2,
+      "로맨틱": 1,
+      "미니멀": 1,
+      "스포티": 1,
+      "프레피": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 4,
+      "pct": 0.3333
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.1667
+      },
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "슬기": {
+    "group": "레드벨벳",
+    "total_items": 9,
+    "full_distribution": {
+      "미니멀": 4,
+      "로맨틱": 1,
+      "스트릿": 1,
+      "클래식": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 4,
+      "pct": 0.4444
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.1111
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.1111
+      }
+    ]
+  },
+  "해린": {
+    "group": "뉴진스",
+    "total_items": 3,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "닝닝": {
+    "group": "에스파",
+    "total_items": 5,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 1,
+      "pct": 0.2
+    },
+    "secondary": []
+  },
+  "민주": {
+    "group": "아일릿",
+    "total_items": 24,
+    "full_distribution": {
+      "로맨틱": 5,
+      "스트릿": 5,
+      "미니멀": 3,
+      "걸리시": 2,
+      "스포티": 2
+    },
+    "status": "ok",
+    "primary": {
+      "style": "로맨틱",
+      "count": 5,
+      "pct": 0.2083
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 5,
+        "pct": 0.2083
+      },
+      {
+        "style": "미니멀",
+        "count": 3,
+        "pct": 0.125
+      }
+    ]
+  },
+  "샤오팅": {
+    "group": "케플러",
+    "total_items": 3,
+    "full_distribution": {
+      "레트로": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김채원": {
+    "group": "르세라핌",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "채령": {
+    "group": "ITZY",
+    "total_items": 5,
+    "full_distribution": {
+      "로맨틱": 2,
+      "워크웨어": 1,
+      "프레피": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "로맨틱",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "워크웨어",
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "style": "프레피",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "하루나": {
+    "group": "빌리",
+    "total_items": 5,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 1,
+      "pct": 0.2
+    },
+    "secondary": []
+  },
+  "아린": {
+    "group": "오마이걸",
+    "total_items": 4,
+    "full_distribution": {
+      "고프코어": 1,
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김채현": {
+    "group": "Kep1er",
+    "total_items": 2,
+    "full_distribution": {
+      "로맨틱": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "수이": {
+    "group": "키키",
+    "total_items": 6,
+    "full_distribution": {
+      "스트릿": 3,
+      "미니멀": 2,
+      "스포티": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 3,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 2,
+        "pct": 0.3333
+      },
+      {
+        "style": "스포티",
+        "count": 1,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "이채영": {
+    "group": "프로미스나인",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "조이현": {
+    "group": null,
+    "total_items": 4,
+    "full_distribution": {
+      "로맨틱": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "규진": {
+    "group": "엔믹스",
+    "total_items": 6,
+    "full_distribution": {
+      "미니멀": 2,
+      "스트릿": 2,
+      "걸리시": 1,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 2,
+      "pct": 0.3333
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.3333
+      },
+      {
+        "style": "걸리시",
+        "count": 1,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "최예나": {
+    "group": "IVE",
+    "total_items": 3,
+    "full_distribution": {
+      "레트로": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김가을": {
+    "group": "아이브",
+    "total_items": 2,
+    "full_distribution": {
+      "걸리시": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "가을": {
+    "group": "아이브",
+    "total_items": 8,
+    "full_distribution": {
+      "걸리시": 2,
+      "캐주얼": 2,
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 2,
+      "pct": 0.25
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.25
+      },
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.125
+      }
+    ]
+  },
+  "박소현": {
+    "group": "트리플에스",
+    "total_items": 1,
+    "full_distribution": {
+      "걸리시": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "설윤": {
+    "group": "NMIXX",
+    "total_items": 5,
+    "full_distribution": {
+      "로맨틱": 2,
+      "캐주얼": 2
+    },
+    "status": "ok",
+    "primary": {
+      "style": "로맨틱",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.4
+      }
+    ]
+  },
+  "백지헌": {
+    "group": "프로미스나인",
+    "total_items": 3,
+    "full_distribution": {
+      "걸리시": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "우기": {
+    "group": "아이들",
+    "total_items": 4,
+    "full_distribution": {
+      "미니멀": 2,
+      "걸리시": 1,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김유연": {
+    "group": "트리플에스",
+    "total_items": 3,
+    "full_distribution": {
+      "로맨틱": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "레이": {
+    "group": "아이브",
+    "total_items": 24,
+    "full_distribution": {
+      "미니멀": 9,
+      "스트릿": 3,
+      "캐주얼": 3,
+      "걸리시": 2,
+      "로맨틱": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 9,
+      "pct": 0.375
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 3,
+        "pct": 0.125
+      },
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.125
+      }
+    ]
+  },
+  "권은비": {
+    "group": "soloist",
+    "total_items": 1,
+    "full_distribution": {
+      "걸리시": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "유나": {
+    "group": "ITZY",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "지젤": {
+    "group": "에스파",
+    "total_items": 1,
+    "full_distribution": {
+      "시크": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "비비": {
+    "group": "ARTMS",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "경리": {
+    "group": "나인뮤지스",
+    "total_items": 2,
+    "full_distribution": {
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "사쿠야": {
+    "group": "NCT WISH",
+    "total_items": 1,
+    "full_distribution": {
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "예원": {
+    "group": "피프티피프티",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "연우": {
+    "group": "모모랜드",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "이본": {
+    "group": "언차일드",
+    "total_items": 1,
+    "full_distribution": {
+      "로맨틱": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "정연": {
+    "group": "트와이스",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "츄": {
+    "group": "LOONA",
+    "total_items": 9,
+    "full_distribution": {
+      "스트릿": 5,
+      "로맨틱": 1,
+      "미니멀": 1,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 5,
+      "pct": 0.5556
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.1111
+      },
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.1111
+      }
+    ]
+  },
+  "하음": {
+    "group": "키키",
+    "total_items": 3,
+    "full_distribution": {
+      "로맨틱": 1,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "채영": {
+    "group": "트와이스",
+    "total_items": 2,
+    "full_distribution": {
+      "시티보이": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "원희": {
+    "group": "아일릿",
+    "total_items": 14,
+    "full_distribution": {
+      "로맨틱": 3,
+      "미니멀": 2,
+      "스트릿": 2,
+      "스포티": 2,
+      "걸리시": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "로맨틱",
+      "count": 3,
+      "pct": 0.2143
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 2,
+        "pct": 0.1429
+      },
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.1429
+      }
+    ]
+  },
+  "윈터": {
+    "group": "에스파",
+    "total_items": 7,
+    "full_distribution": {
+      "미니멀": 2,
+      "스트릿": 2,
+      "클래식": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 2,
+      "pct": 0.2857
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.2857
+      },
+      {
+        "style": "클래식",
+        "count": 1,
+        "pct": 0.1429
+      }
+    ]
+  },
+  "카리나": {
+    "group": "에스파",
+    "total_items": 1,
+    "full_distribution": {
+      "로맨틱": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김나경": {
+    "group": "tripleS",
+    "total_items": 1,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "키야": {
+    "group": "키키",
+    "total_items": 11,
+    "full_distribution": {
+      "스트릿": 6,
+      "걸리시": 2,
+      "로맨틱": 2,
+      "프레피": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 6,
+      "pct": 0.5455
+    },
+    "secondary": [
+      {
+        "style": "걸리시",
+        "count": 2,
+        "pct": 0.1818
+      },
+      {
+        "style": "로맨틱",
+        "count": 2,
+        "pct": 0.1818
+      }
+    ]
+  },
+  "박보영": {
+    "group": null,
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "리아": {
+    "group": "있지",
+    "total_items": 3,
+    "full_distribution": {
+      "캐주얼": 2,
+      "레트로": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "박지원": {
+    "group": "프로미스나인",
+    "total_items": 1,
+    "full_distribution": {
+      "프레피": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "유하": {
+    "group": "하츠투하츠",
+    "total_items": 2,
+    "full_distribution": {
+      "로맨틱": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "카르멘": {
+    "group": "하츠투하츠",
+    "total_items": 3,
+    "full_distribution": {
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "주은": {
+    "group": "하츠투하츠",
+    "total_items": 5,
+    "full_distribution": {
+      "캐주얼": 2,
+      "미니멀": 1,
+      "스트릿": 1,
+      "에스닉": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "예온": {
+    "group": "하츠투하츠",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "에이나": {
+    "group": "하츠투하츠",
+    "total_items": 6,
+    "full_distribution": {
+      "캐주얼": 2,
+      "로맨틱": 1,
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 2,
+      "pct": 0.3333
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.1667
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "지우": {
+    "group": "하츠투하츠",
+    "total_items": 5,
+    "full_distribution": {
+      "캐주얼": 2,
+      "걸리시": 1,
+      "스포티": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "걸리시",
+        "count": 1,
+        "pct": 0.2
+      },
+      {
+        "style": "스포티",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "이안": {
+    "group": "하츠투하츠",
+    "total_items": 9,
+    "full_distribution": {
+      "스포티": 4,
+      "미니멀": 1,
+      "스트릿": 1,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스포티",
+      "count": 4,
+      "pct": 0.4444
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.1111
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.1111
+      }
+    ]
+  },
+  "아사": {
+    "group": "베이비몬스터",
+    "total_items": 10,
+    "full_distribution": {
+      "미니멀": 3,
+      "스트릿": 2,
+      "걸리시": 1,
+      "로맨틱": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 3,
+      "pct": 0.3
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.2
+      },
+      {
+        "style": "걸리시",
+        "count": 1,
+        "pct": 0.1
+      }
+    ]
+  },
+  "이로하": {
+    "group": "아일릿",
+    "total_items": 11,
+    "full_distribution": {
+      "미니멀": 3,
+      "스트릿": 3,
+      "캐주얼": 3,
+      "워크웨어": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 3,
+      "pct": 0.2727
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 3,
+        "pct": 0.2727
+      },
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.2727
+      }
+    ]
+  },
+  "아현": {
+    "group": "베이비몬스터",
+    "total_items": 11,
+    "full_distribution": {
+      "스트릿": 7,
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 7,
+      "pct": 0.6364
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.0909
+      },
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.0909
+      }
+    ]
+  },
+  "루카": {
+    "group": "베이비몬스터",
+    "total_items": 5,
+    "full_distribution": {
+      "미니멀": 2,
+      "스트릿": 2,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.4
+      },
+      {
+        "style": "캐주얼",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "로라": {
+    "group": "베이비몬스터",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 1,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "치키타": {
+    "group": "베이비몬스터",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "최정은": {
+    "group": "이즈나",
+    "total_items": 5,
+    "full_distribution": {
+      "미니멀": 3,
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 3,
+      "pct": 0.6
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "지유": {
+    "group": "키키",
+    "total_items": 8,
+    "full_distribution": {
+      "미니멀": 4,
+      "로맨틱": 1,
+      "스트릿": 1,
+      "스포티": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 4,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.125
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.125
+      }
+    ]
+  },
+  "미연": {
+    "group": "아이들",
+    "total_items": 4,
+    "full_distribution": {
+      "걸리시": 1,
+      "로맨틱": 1,
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "모카": {
+    "group": "아일릿",
+    "total_items": 7,
+    "full_distribution": {
+      "스트릿": 3,
+      "미니멀": 2,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 3,
+      "pct": 0.4286
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 2,
+        "pct": 0.2857
+      },
+      {
+        "style": "캐주얼",
+        "count": 1,
+        "pct": 0.1429
+      }
+    ]
+  },
+  "김소혜, 김세정": {
+    "group": "아이오아이",
+    "total_items": 2,
+    "full_distribution": {
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "안유진": {
+    "group": "아이브",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "이솔": {
+    "group": "키키",
+    "total_items": 8,
+    "full_distribution": {
+      "미니멀": 3,
+      "로맨틱": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 3,
+      "pct": 0.375
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.125
+      }
+    ]
+  },
+  "손민수": {
+    "group": "아일릿",
+    "total_items": 6,
+    "full_distribution": {
+      "미니멀": 2,
+      "레트로": 1,
+      "스포티": 1,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 2,
+      "pct": 0.3333
+    },
+    "secondary": [
+      {
+        "style": "레트로",
+        "count": 1,
+        "pct": 0.1667
+      },
+      {
+        "style": "스포티",
+        "count": 1,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "츠키": {
+    "group": "빌리",
+    "total_items": 4,
+    "full_distribution": {
+      "로맨틱": 2,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "카즈하": {
+    "group": "르세라핌",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "노지선": {
+    "group": "fromis_9",
+    "total_items": 2,
+    "full_distribution": {
+      "레트로": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "코토네": {
+    "group": "트리플에스",
+    "total_items": 1,
+    "full_distribution": {
+      "스포티": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "정보민": {
+    "group": "정보민",
+    "total_items": 4,
+    "full_distribution": {
+      "미니멀": 3,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "티파니": {
+    "group": "소녀시대",
+    "total_items": 1,
+    "full_distribution": {
+      "클래식": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "태연": {
+    "group": "소녀시대",
+    "total_items": 18,
+    "full_distribution": {
+      "미니멀": 7,
+      "로맨틱": 3,
+      "캐주얼": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "미니멀",
+      "count": 7,
+      "pct": 0.3889
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 3,
+        "pct": 0.1667
+      },
+      {
+        "style": "캐주얼",
+        "count": 1,
+        "pct": 0.0556
+      }
+    ]
+  },
+  "리즈": {
+    "group": "아이브",
+    "total_items": 5,
+    "full_distribution": {
+      "로맨틱": 2,
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "로맨틱",
+      "count": 2,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.2
+      }
+    ]
+  },
+  "유주": {
+    "group": null,
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "스텔라": {
+    "group": "하츠투하츠",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "배이": {
+    "group": "NMIXX",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "유사랑": {
+    "group": "IVE",
+    "total_items": 2,
+    "full_distribution": {
+      "걸리시": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "건호": {
+    "group": "코르티스",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "신시아": {
+    "group": "SHINSIA",
+    "total_items": 1,
+    "full_distribution": {
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "이나경": {
+    "group": "프로미스나인",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "윤아": {
+    "group": "아일릿",
+    "total_items": 6,
+    "full_distribution": {
+      "걸리시": 1,
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 1,
+      "pct": 0.1667
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.1667
+      },
+      {
+        "style": "스트릿",
+        "count": 1,
+        "pct": 0.1667
+      }
+    ]
+  },
+  "하늘": {
+    "group": "키스오브라이프",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "지연": {
+    "group": "트리플에스",
+    "total_items": 1,
+    "full_distribution": {
+      "걸리시": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "예지": {
+    "group": "ITZY",
+    "total_items": 4,
+    "full_distribution": {
+      "스트릿": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "한유진": {
+    "group": "IVE",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "장하오": {
+    "group": "ZEROBASEONE",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "션": {
+    "group": "빌리",
+    "total_items": 3,
+    "full_distribution": {
+      "미니멀": 2,
+      "걸리시": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "정채연": {
+    "group": "DIA",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "조이": {
+    "group": "레드벨벳",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "재민": {
+    "group": "NCT",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "아야카": {
+    "group": "니쥬",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "청하": {
+    "group": "청하",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 2
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "모모": {
+    "group": "트와이스",
+    "total_items": 2,
+    "full_distribution": {
+      "걸리시": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "설아": {
+    "group": "우주소녀",
+    "total_items": 3,
+    "full_distribution": {
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "파리타": {
+    "group": "베이비몬스터",
+    "total_items": 3,
+    "full_distribution": {
+      "걸리시": 1,
+      "로맨틱": 1,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "전소미": {
+    "group": "솔로",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "박예은": {
+    "group": "언차일드",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "미나": {
+    "group": "트와이스",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "도훈": {
+    "group": "투어스",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "벨": {
+    "group": "키스오브라이프",
+    "total_items": 1,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "아테나": {
+    "group": "피프티피프티",
+    "total_items": 1,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "앤톤": {
+    "group": "라이즈",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "아이린": {
+    "group": "레드벨벳",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 1,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "나하은": {
+    "group": "언차일드",
+    "total_items": 2,
+    "full_distribution": {
+      "스트릿": 1,
+      "스포티": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "한수아": {
+    "group": null,
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "나현": {
+    "group": "앳하트",
+    "total_items": 4,
+    "full_distribution": {
+      "레트로": 1,
+      "스트릿": 1,
+      "캐주얼": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "사나": {
+    "group": "트와이스",
+    "total_items": 4,
+    "full_distribution": {
+      "스포티": 2,
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "리쿠": {
+    "group": "NCT WISH",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "송하영": {
+    "group": "프로미스나인",
+    "total_items": 2,
+    "full_distribution": {
+      "클래식": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "준휘": {
+    "group": "세이마이네임",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "나띠": {
+    "group": "키스오브라이프",
+    "total_items": 1,
+    "full_distribution": {
+      "스트릿": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "헤이즈": {
+    "group": null,
+    "total_items": 1,
+    "full_distribution": {
+      "클래식": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "이성경": {
+    "group": null,
+    "total_items": 2,
+    "full_distribution": {},
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "최윤지": {
+    "group": "NMIXX",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "스포티": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "이즈나": {
+    "group": "IVE",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  }
+}
