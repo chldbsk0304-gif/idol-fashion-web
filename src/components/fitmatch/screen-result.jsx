@@ -313,7 +313,8 @@ function ProductCarousel({ idolName, items }) {
         <span style={{ opacity: 0.6 }}> +</span>
       </div>
       {/* Scroll snap horizontal carousel — peeks the next card so users see
-          it's swipable. No JS dependency. */}
+          it's swipable. No JS dependency. alignItems:stretch makes every card
+          the same height regardless of how many lines its product name uses. */}
       <div
         className="scroll"
         style={{
@@ -323,6 +324,7 @@ function ProductCarousel({ idolName, items }) {
           scrollSnapType: 'x mandatory',
           padding: '4px 20px 14px',
           WebkitOverflowScrolling: 'touch',
+          alignItems: 'stretch',
         }}
       >
         {items.map((it, i) => (
@@ -335,24 +337,36 @@ function ProductCarousel({ idolName, items }) {
 
 function ProductCard({ item }) {
   const [broken, setBroken] = React.useState(false);
-  const card = (
-    <div style={{
-      flex: '0 0 42%',
-      minWidth: 144,
-      maxWidth: 180,
-      scrollSnapAlign: 'start',
-      background: COLORS.surface,
-      border: `1px solid ${COLORS.line}`,
-      borderRadius: 10,
-      overflow: 'hidden',
-      display: 'flex', flexDirection: 'column',
-      textDecoration: 'none',
-      color: COLORS.text,
-    }}>
+
+  // Container styles apply to BOTH the `<a>` and `<div>` outer wrappers so
+  // wrapping in an anchor doesn't change layout. Without this, `<a>` defaults
+  // to inline and the inner card lost its width → aspect-ratio collapsed and
+  // every card came out a different height.
+  const outerStyle = {
+    flex: '0 0 45%',
+    width: '45%',
+    minWidth: 144,
+    maxWidth: 240,
+    scrollSnapAlign: 'start',
+    background: COLORS.surface,
+    border: `1px solid ${COLORS.line}`,
+    borderRadius: 10,
+    overflow: 'hidden',
+    display: 'flex',
+    flexDirection: 'column',
+    color: COLORS.text,
+    textDecoration: 'none',
+  };
+
+  const inner = (
+    <>
       <div style={{
-        width: '100%', aspectRatio: '1 / 1',
+        width: '100%',
+        aspectRatio: '1 / 1',
         background: '#0F1115',
         position: 'relative',
+        overflow: 'hidden',
+        flex: '0 0 auto',
       }}>
         {item.imageUrl && !broken ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -363,7 +377,10 @@ function ProductCard({ item }) {
             loading="lazy"
             onError={() => setBroken(true)}
             style={{
-              width: '100%', height: '100%', objectFit: 'cover',
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center center',
               display: 'block',
             }}
           />
@@ -378,36 +395,46 @@ function ProductCard({ item }) {
           }}>IMG.404</div>
         )}
       </div>
-      <div style={{ padding: '8px 10px 10px', minHeight: 56 }}>
+      <div style={{
+        padding: '10px 12px 12px',
+        minHeight: 72, // text area reserves ~4.5em so 1-line and 2-line cards stay the same total height
+        display: 'flex', flexDirection: 'column',
+        flex: '1 1 auto',
+      }}>
         <div style={{
           fontFamily: 'JetBrains Mono, monospace',
           fontSize: 9, letterSpacing: 1.2,
           color: COLORS.accent,
           textTransform: 'uppercase',
           whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+          lineHeight: 1.3,
         }}>{item.brand || '—'}</div>
         <div style={{
           fontFamily: 'Pretendard, sans-serif',
           fontSize: 12, fontWeight: 600,
           color: COLORS.text,
           marginTop: 4,
-          lineHeight: 1.3,
+          lineHeight: 1.35,
           display: '-webkit-box',
           WebkitLineClamp: 2,
           WebkitBoxOrient: 'vertical',
           overflow: 'hidden',
+          // Reserve two lines of vertical space even when the product name fits
+          // on one line, so adjacent cards align.
+          minHeight: 'calc(1.35em * 2)',
         }}>{item.productName || '제품명 미상'}</div>
       </div>
-    </div>
+    </>
   );
+
   if (item.postUrl) {
     return (
-      <a href={item.postUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', flex: '0 0 auto' }}>
-        {card}
+      <a href={item.postUrl} target="_blank" rel="noopener noreferrer" style={outerStyle}>
+        {inner}
       </a>
     );
   }
-  return card;
+  return <div style={outerStyle}>{inner}</div>;
 }
 
 function Header({ text, accent }) {
