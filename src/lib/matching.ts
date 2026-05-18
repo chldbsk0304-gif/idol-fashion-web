@@ -46,7 +46,6 @@ interface RawIdolEntry {
 type RawIdolDB = Record<string, RawIdolEntry>;
 
 let _cache: RawIdolDB | null = null;
-let _imageCache: Map<string, string> | null = null;
 let _itemsCache: Map<string, IdolItem[]> | null = null;
 
 async function loadIdolDB(): Promise<RawIdolDB> {
@@ -55,36 +54,6 @@ async function loadIdolDB(): Promise<RawIdolDB> {
   const raw = await fs.readFile(p, 'utf-8');
   _cache = JSON.parse(raw) as RawIdolDB;
   return _cache;
-}
-
-// Pre-index "first image URL" per idol from items_with_style.json. Prefer
-// type:'wearing' if any item is tagged that way; else take the first non-empty
-// URL across all items for that idol.
-async function loadImageIndex(): Promise<Map<string, string>> {
-  if (_imageCache) return _imageCache;
-  const p = path.join(process.cwd(), 'data', 'items_with_style.json');
-  let items: StyledItem[];
-  try {
-    items = JSON.parse(await fs.readFile(p, 'utf-8')) as StyledItem[];
-  } catch {
-    _imageCache = new Map();
-    return _imageCache;
-  }
-  const wearing = new Map<string, string>();
-  const anyImg = new Map<string, string>();
-  for (const it of items) {
-    const idol = it.idol_name?.trim();
-    if (!idol || !Array.isArray(it.images)) continue;
-    for (const img of it.images) {
-      if (!img?.url) continue;
-      if (img.type === 'wearing' && !wearing.has(idol)) wearing.set(idol, img.url);
-      if (!anyImg.has(idol)) anyImg.set(idol, img.url);
-    }
-  }
-  const merged = new Map<string, string>(anyImg);
-  for (const [k, v] of wearing) merged.set(k, v); // wearing overrides
-  _imageCache = merged;
-  return merged;
 }
 
 // Index of worn items per idol, ready to feed the result page carousel.
@@ -135,6 +104,28 @@ function pickItemsForIdol(
   return [...onStyle, ...offStyle].slice(0, maxItems);
 }
 
+// Pick a hero image for an idol whose photo should match the style on the
+// card. Walks primary → each secondary → anything. Inside each style we take
+// the first item that has an image URL (data is already ordered by post in
+// items_with_style.json; "first" is fine).
+function pickImageForIdol(
+  entry: RawIdolEntry,
+  items: IdolItem[],
+): string | undefined {
+  if (!items.length) return undefined;
+  const stylePref: string[] = [];
+  if (entry.primary?.style) stylePref.push(entry.primary.style);
+  for (const s of entry.secondary ?? []) {
+    if (s?.style && !stylePref.includes(s.style)) stylePref.push(s.style);
+  }
+  for (const style of stylePref) {
+    const hit = items.find((it) => it.style === style && it.imageUrl);
+    if (hit?.imageUrl) return hit.imageUrl;
+  }
+  // Last resort: any item with an image. Beats showing the gradient portrait.
+  return items.find((it) => it.imageUrl)?.imageUrl ?? undefined;
+}
+
 function toVector(dist: StyleDistribution): number[] {
   return STYLE_ORDER.map((s) => dist[s] || 0);
 }
@@ -181,9 +172,8 @@ export async function matchIdols(
   topK = 3,
   minItems = 5,
 ): Promise<MatchResponse> {
-  const [db, imageIndex, itemsIndex] = await Promise.all([
+  const [db, itemsIndex] = await Promise.all([
     loadIdolDB(),
-    loadImageIndex(),
     loadItemsIndex(),
   ]);
   const userVec = toVector(userDist);
@@ -195,6 +185,7 @@ export async function matchIdols(
 
     const idolDist = normalizeCounts(entry.full_distribution);
     const score = cosine(userVec, toVector(idolDist));
+    const itemsForIdol = itemsIndex.get(name) ?? [];
 
     candidates.push({
       name,
@@ -203,7 +194,7 @@ export async function matchIdols(
       primary: entry.primary.style,
       score,
       seed: seedFromName(name),
-      imageUrl: imageIndex.get(name),
+      imageUrl: pickImageForIdol(entry, itemsForIdol),
       distribution: idolDist,
       totalItems: entry.total_items,
     });
