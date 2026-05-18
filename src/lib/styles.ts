@@ -27,6 +27,8 @@ export interface MatchedIdol {
   primary: string;         // primary style
   score: number;           // cosine similarity 0..1
   seed: number;            // deterministic palette seed for IdolPortrait
+  /** Real OOTD image URL when we have one for the idol; falls back to portrait. */
+  imageUrl?: string;
   distribution: StyleDistribution;
   totalItems: number;
 }

@@ -19,9 +19,10 @@ import AnalyzingScreen from './screen-analyzing';
 import ResultScreen from './screen-result';
 import ShareScreen from './screen-share';
 
-// Keep the scan animation visible long enough to feel like analysis, even on
-// a fast API round-trip. If the API takes longer, we wait for it.
-const MIN_SCAN_MS = 5500;
+// Time-based portion of the scan. The bar reaches ~95% by this point and
+// parks there until the API actually returns; final ramp to 100% happens
+// inside AnalyzingScreen once we set resultReady.
+const SCAN_DURATION_MS = 5000;
 
 // Cap before we ship bytes to the server. Phase 5 explicitly asks for client
 // resize ≤ 8 MB; we go a touch lower so multipart overhead stays under cap.
@@ -51,13 +52,18 @@ export default function FitMatchApp() {
     ? `${window.location.origin}/result/${resultId}`
     : '';
 
-  // When both gates flip true, advance.
+  // AnalyzingScreen calls onDone after the 95→100% ramp completes; by then
+  // resultReady is true, so we can transition immediately.
   React.useEffect(() => {
     if (phase === 'analyzing' && timerDone && resultReady) {
       setPhase('result');
       setTimerDone(false);
     }
   }, [phase, timerDone, resultReady]);
+
+  // Stable callback so AnalyzingScreen's mount-once effect doesn't see a
+  // new function identity on every parent render.
+  const handleScanDone = React.useCallback(() => setTimerDone(true), []);
 
   // Mint a shareable id as soon as we have a result on screen. Failure here is
   // non-fatal — share targets that need a URL will fall back to copy-text.
@@ -161,6 +167,7 @@ export default function FitMatchApp() {
         score: m.score,
         primary: m.primary,
         seed: m.seed,
+        imageUrl: m.imageUrl,
         distribution: m.distribution,
       }));
 
@@ -189,8 +196,9 @@ export default function FitMatchApp() {
       {phase === 'analyzing' && (
         <AnalyzingScreen
           slots={slots.some(Boolean) ? slots : [{ kind: 'fake', seed: 0 }]}
-          durationMs={MIN_SCAN_MS}
-          onDone={() => setTimerDone(true)}
+          durationMs={SCAN_DURATION_MS}
+          resultReady={resultReady}
+          onDone={handleScanDone}
         />
       )}
       {phase === 'result' && matches.length > 0 && (

@@ -1,30 +1,83 @@
 'use client';
 
-// Analysis loading screen — verbatim port. Timer animation is kept; real
-// /api/analyze + /api/match calls land in Phase 2 and replace `onDone` timing.
+// Analysis loading screen.
+//
+// Progress is driven in two phases so the bar never restarts and so it stays
+// in sync with the real API round-trip:
+//   1) 0 → 0.95 by a time-based interpolation over `durationMs` (default 5s).
+//      The bar holds at 0.95 if the API hasn't finished yet — this is the
+//      "almost done" parking spot the brief asks for.
+//   2) When `resultReady` flips true, the bar eases from its current value
+//      (≤ 0.95) up to 1.0 over ~500ms, then onDone fires.
+//
+// `onDone` is captured into a ref so changes to the callback identity from
+// the parent re-render don't restart the effect (this was the cause of the
+// "progress runs twice" bug — onDone was in the dep list and the parent's
+// inline arrow created a fresh ref on every render).
 
 import React from 'react';
 import { COLORS, STYLES_15, PixelCross, FakePhoto } from './ui';
 
-export default function AnalyzingScreen({ slots, onDone, durationMs = 6500 }) {
+const SCAN_PHASE_CEILING = 0.95;   // where the time-based timer parks
+const FINAL_RAMP_MS = 500;         // 0.95 → 1.0 once API is back
+
+export default function AnalyzingScreen({
+  slots,
+  onDone,
+  resultReady = false,
+  durationMs = 5000,
+}) {
   const [progress, setProgress] = React.useState(0);
   const [scanIdx, setScanIdx] = React.useState(0);
   const [logs, setLogs] = React.useState([]);
 
+  // Stable refs so the main effect runs exactly once.
+  const onDoneRef = React.useRef(onDone);
+  const durationRef = React.useRef(durationMs);
+  const readyRef = React.useRef(resultReady);
+  const finishedRef = React.useRef(false);
+  React.useEffect(() => { onDoneRef.current = onDone; }, [onDone]);
+  React.useEffect(() => { durationRef.current = durationMs; }, [durationMs]);
+  React.useEffect(() => { readyRef.current = resultReady; }, [resultReady]);
+
   React.useEffect(() => {
     const start = Date.now();
+    // Tracks where the bar is when we hand off to the final ramp.
+    let rampFromValue = 0;
+    let rampStart = 0;
+
     const tick = setInterval(() => {
-      const t = Math.min(1, (Date.now() - start) / durationMs);
-      setProgress(t);
-      const idx = Math.min(STYLES_15.length - 1, Math.floor(t * STYLES_15.length));
-      setScanIdx(idx);
-      if (t >= 1) {
-        clearInterval(tick);
-        setTimeout(onDone, 500);
+      if (finishedRef.current) return;
+
+      const elapsed = Date.now() - start;
+
+      if (!readyRef.current) {
+        // Phase 1: time-based, capped at SCAN_PHASE_CEILING.
+        const t = Math.min(1, elapsed / durationRef.current) * SCAN_PHASE_CEILING;
+        setProgress(t);
+        setScanIdx(Math.min(STYLES_15.length - 1, Math.floor((t / SCAN_PHASE_CEILING) * STYLES_15.length)));
+        rampFromValue = t;
+        rampStart = Date.now();
+      } else {
+        // Phase 2: ramp from wherever phase 1 parked to 1.0.
+        const rampElapsed = Date.now() - rampStart;
+        const r = Math.min(1, rampElapsed / FINAL_RAMP_MS);
+        const value = rampFromValue + (1 - rampFromValue) * r;
+        setProgress(value);
+        setScanIdx(STYLES_15.length - 1);
+        if (r >= 1) {
+          finishedRef.current = true;
+          clearInterval(tick);
+          // small breath at 100% before flipping screens
+          setTimeout(() => onDoneRef.current?.(), 250);
+        }
       }
-    }, 60);
+    }, 50);
+
     return () => clearInterval(tick);
-  }, [durationMs, onDone]);
+    // Intentionally mount-once. All inputs read via refs above.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   React.useEffect(() => {
     const lines = [

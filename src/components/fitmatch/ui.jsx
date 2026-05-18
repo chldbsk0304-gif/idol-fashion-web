@@ -182,6 +182,65 @@ export function FakePhoto({ seed = 1, label, height = '100%', width = '100%' }) 
   );
 }
 
+// When we have a real OOTD photo for the idol, render it on top of the
+// gradient portrait so the pink glow remains as a frame and the photo is the
+// hero. Falls back to the bare portrait when imageUrl is missing.
+export function IdolPortraitOrPhoto({ seed = 0, imageUrl, label, style, ratio = '4 / 5' }) {
+  if (!imageUrl) {
+    return <IdolPortrait seed={seed} label={label} style={style} ratio={ratio} />;
+  }
+  const palettes = [
+    { a: '#2a1a25', b: '#FF6FA8', c: '#FFE6F0' },
+    { a: '#1a1f2a', b: '#8AB4FF', c: '#E0EAFF' },
+    { a: '#2a241a', b: '#FFD66F', c: '#FFF3D6' },
+    { a: '#1a2a25', b: '#A0F0C8', c: '#E6EDF3' },
+  ];
+  const p = palettes[seed % palettes.length];
+  return (
+    <div style={{
+      width: '100%', aspectRatio: ratio,
+      background: `linear-gradient(160deg, ${p.a} 0%, #0d1217 100%)`,
+      position: 'relative', overflow: 'hidden',
+      borderRadius: 'inherit',
+      ...style,
+    }}>
+      <img
+        src={imageUrl}
+        alt=""
+        referrerPolicy="no-referrer"
+        loading="lazy"
+        crossOrigin="anonymous"
+        style={{
+          position: 'absolute', inset: 0,
+          width: '100%', height: '100%', objectFit: 'cover',
+          display: 'block',
+        }}
+        onError={(e) => { e.currentTarget.style.display = 'none'; }}
+      />
+      {/* Mint glow framing, kept from the portrait fallback so the card still
+          reads as the same component. */}
+      <div style={{
+        position: 'absolute', inset: 0,
+        boxShadow: `inset 0 0 80px ${p.b}40, inset 0 -120px 80px -40px rgba(11,16,20,0.55)`,
+        pointerEvents: 'none',
+      }} />
+      <PixelCross style={{ position: 'absolute', top: 8, left: 8, color: p.b }} />
+      <PixelCross style={{ position: 'absolute', top: 8, right: 8, color: p.b }} />
+      <PixelCross style={{ position: 'absolute', bottom: 8, left: 8, color: p.b }} />
+      <PixelCross style={{ position: 'absolute', bottom: 8, right: 8, color: p.b }} />
+      {label && (
+        <div style={{
+          position: 'absolute', left: 12, bottom: 12,
+          fontFamily: 'JetBrains Mono, monospace',
+          fontSize: 9, letterSpacing: 1.4,
+          color: 'rgba(255,255,255,0.7)',
+          textTransform: 'uppercase',
+        }}>{label}</div>
+      )}
+    </div>
+  );
+}
+
 export function IdolPortrait({ seed = 0, label, style, ratio = '4 / 5' }) {
   const palettes = [
     { a: '#2a1a25', b: '#FF6FA8', c: '#FFE6F0' },

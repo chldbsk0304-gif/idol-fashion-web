@@ -13,7 +13,7 @@
 //   이미지 저장 footer — same PNG render but always downloads.
 
 import React from 'react';
-import { COLORS, CTA, IdolPortrait, PixelCross } from './ui';
+import { COLORS, CTA, IdolPortraitOrPhoto, PixelCross } from './ui';
 
 async function renderCardToBlob(node) {
   // Defer-load html2canvas only when needed (keeps initial bundle small).
@@ -157,7 +157,7 @@ export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) 
           position: 'relative',
           boxShadow: '0 30px 80px rgba(0,0,0,0.6), 0 0 60px rgba(230,57,137,0.08)',
         }}>
-          <IdolPortrait seed={primary.seed} ratio="9 / 16" />
+          <IdolPortraitOrPhoto seed={primary.seed} imageUrl={primary.imageUrl} ratio="9 / 16" />
           <div style={{
             position: 'absolute', inset: 0,
             background: 'linear-gradient(180deg, rgba(11,16,20,0.55) 0%, rgba(11,16,20,0) 30%, rgba(11,16,20,0) 50%, rgba(11,16,20,0.95) 100%)',

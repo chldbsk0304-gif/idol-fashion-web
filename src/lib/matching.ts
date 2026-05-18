@@ -23,6 +23,11 @@ import {
   type StyleDistribution,
 } from './styles';
 
+interface StyledItem {
+  idol_name?: string;
+  images?: Array<{ url?: string; type?: string }>;
+}
+
 interface RawIdolEntry {
   group: string | null;
   total_items: number;
@@ -35,6 +40,7 @@ interface RawIdolEntry {
 type RawIdolDB = Record<string, RawIdolEntry>;
 
 let _cache: RawIdolDB | null = null;
+let _imageCache: Map<string, string> | null = null;
 
 async function loadIdolDB(): Promise<RawIdolDB> {
   if (_cache) return _cache;
@@ -42,6 +48,36 @@ async function loadIdolDB(): Promise<RawIdolDB> {
   const raw = await fs.readFile(p, 'utf-8');
   _cache = JSON.parse(raw) as RawIdolDB;
   return _cache;
+}
+
+// Pre-index "first image URL" per idol from items_with_style.json. Prefer
+// type:'wearing' if any item is tagged that way; else take the first non-empty
+// URL across all items for that idol.
+async function loadImageIndex(): Promise<Map<string, string>> {
+  if (_imageCache) return _imageCache;
+  const p = path.join(process.cwd(), 'data', 'items_with_style.json');
+  let items: StyledItem[];
+  try {
+    items = JSON.parse(await fs.readFile(p, 'utf-8')) as StyledItem[];
+  } catch {
+    _imageCache = new Map();
+    return _imageCache;
+  }
+  const wearing = new Map<string, string>();
+  const anyImg = new Map<string, string>();
+  for (const it of items) {
+    const idol = it.idol_name?.trim();
+    if (!idol || !Array.isArray(it.images)) continue;
+    for (const img of it.images) {
+      if (!img?.url) continue;
+      if (img.type === 'wearing' && !wearing.has(idol)) wearing.set(idol, img.url);
+      if (!anyImg.has(idol)) anyImg.set(idol, img.url);
+    }
+  }
+  const merged = new Map<string, string>(anyImg);
+  for (const [k, v] of wearing) merged.set(k, v); // wearing overrides
+  _imageCache = merged;
+  return merged;
 }
 
 function toVector(dist: StyleDistribution): number[] {
@@ -90,7 +126,7 @@ export async function matchIdols(
   topK = 3,
   minItems = 5,
 ): Promise<MatchResponse> {
-  const db = await loadIdolDB();
+  const [db, imageIndex] = await Promise.all([loadIdolDB(), loadImageIndex()]);
   const userVec = toVector(userDist);
 
   const candidates: MatchedIdol[] = [];
@@ -108,6 +144,7 @@ export async function matchIdols(
       primary: entry.primary.style,
       score,
       seed: seedFromName(name),
+      imageUrl: imageIndex.get(name),
       distribution: idolDist,
       totalItems: entry.total_items,
     });

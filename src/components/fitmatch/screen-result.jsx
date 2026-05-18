@@ -4,7 +4,7 @@
 // props (matches, userDistribution) instead of the prototype's globals.
 
 import React from 'react';
-import { COLORS, CTA, IdolPortrait } from './ui';
+import { COLORS, CTA, IdolPortraitOrPhoto } from './ui';
 
 export default function ResultScreen({
   matches,
@@ -74,7 +74,15 @@ export default function ResultScreen({
         </div>
 
         <div style={{ position: 'relative' }}>
-          <IdolPortrait seed={primary.seed} label={`${primary.primary}.PRIMARY`} ratio="3 / 4" />
+          <IdolPortraitOrPhoto
+            seed={primary.seed}
+            imageUrl={primary.imageUrl}
+            // Hide the corner label when a real photo is rendered — the photo
+            // already carries the visual information and the label overlapped
+            // with the name pinned to the bottom-left.
+            label={primary.imageUrl ? null : `${primary.primary}.PRIMARY`}
+            ratio="3 / 4"
+          />
           {step >= 1 && (
             <div className="rise" style={{
               position: 'absolute', top: 14, right: 14,
@@ -100,17 +108,19 @@ export default function ResultScreen({
                 <div style={{
                   fontFamily: 'JetBrains Mono, monospace',
                   fontSize: 10, letterSpacing: 2,
+                  lineHeight: 1.4,
                   color: COLORS.accent,
                   opacity: 0.85,
+                  textShadow: '0 1px 8px rgba(0,0,0,0.5)',
                 }}>{primary.group}</div>
                 <div style={{
                   fontFamily: 'Pretendard, sans-serif',
                   fontSize: 34, fontWeight: 800,
                   letterSpacing: -0.5,
-                  lineHeight: 1.05,
+                  lineHeight: 1.15,
                   color: '#fff',
                   textShadow: '0 2px 16px rgba(0,0,0,0.5)',
-                  marginTop: 4,
+                  marginTop: 6,
                 }}>
                   {primary.nameKr}
                   {primary.name && (
@@ -126,18 +136,21 @@ export default function ResultScreen({
 
         {step >= 3 && (
           <div className="rise" style={{
-            padding: '14px 16px',
+            padding: '16px',
             display: 'flex', justifyContent: 'space-between', alignItems: 'center',
+            gap: 12,
             borderBottom: `1px solid ${COLORS.line}`,
           }}>
             <div>
               <div style={{
                 fontFamily: 'JetBrains Mono, monospace',
-                fontSize: 9, letterSpacing: 2, color: COLORS.muted,
+                fontSize: 9, letterSpacing: 1.6, color: COLORS.muted,
+                lineHeight: 1.4,
               }}>PRIMARY&nbsp;STYLE</div>
               <div style={{
                 fontFamily: 'Pretendard, sans-serif',
-                fontSize: 18, fontWeight: 700, marginTop: 2,
+                fontSize: 18, fontWeight: 700, marginTop: 4,
+                lineHeight: 1.2,
                 color: COLORS.text,
               }}>{primary.primary}</div>
             </div>
@@ -216,7 +229,7 @@ export default function ResultScreen({
                   fontFamily: 'inherit',
                   display: 'flex', flexDirection: 'column',
                 }}>
-                  <IdolPortrait seed={m.seed} ratio="1 / 1" />
+                  <IdolPortraitOrPhoto seed={m.seed} imageUrl={m.imageUrl} ratio="1 / 1" />
                   <div style={{ padding: '10px 12px' }}>
                     <div style={{
                       fontFamily: 'JetBrains Mono, monospace',
