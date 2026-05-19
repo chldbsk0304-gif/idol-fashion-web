@@ -103,7 +103,18 @@ export default function UploadScreen({ slots, setSlots, onContinue }) {
         </div>
       </div>
 
-      <div style={{ padding: '20px 20px 0', flex: 1, minHeight: 0, display: 'flex' }}>
+      {/* Slot wrapper:
+          - flex:1 + alignItems:center keeps the slot vertically centered in
+            whatever space the screen has left after the headline + footer.
+          - The slot itself owns its aspect ratio and width cap. */}
+      <div style={{
+        padding: '20px 20px 0',
+        flex: 1,
+        minHeight: 0,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}>
         <SingleSlot
           slot={slot}
           loading={loading}
@@ -168,9 +179,12 @@ function SingleSlot({ slot, loading, has, onClick, onRemove }) {
     <div
       onClick={onClick || undefined}
       style={{
+        // OOTD is a full-body photo, so the slot is 3:4 (portrait). Width
+        // fills its column up to 400px so the slot looks right on phones,
+        // tablets, and desktop without snapping at breakpoints.
         width: '100%',
-        height: '100%',
-        minHeight: 280,
+        maxWidth: 400,
+        aspectRatio: '3 / 4',
         background: has ? 'transparent' : 'rgba(230,57,137,0.04)',
         border: `1.5px dashed ${has ? 'rgba(230,57,137,0.6)' : 'rgba(230,57,137,0.4)'}`,
         borderRadius: 16,
