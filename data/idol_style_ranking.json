@@ -151,7 +151,7 @@
     "secondary": []
   },
   "채령": {
-    "group": "ITZY",
+    "group": "있지",
     "total_items": 6,
     "full_distribution": {
       "로맨틱": 2,
@@ -278,17 +278,6 @@
     "primary": null,
     "secondary": []
   },
-  "조이현": {
-    "group": null,
-    "total_items": 4,
-    "full_distribution": {
-      "로맨틱": 3,
-      "캐주얼": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "규진": {
     "group": "엔믹스",
     "total_items": 6,
@@ -318,7 +307,7 @@
     ]
   },
   "최예나": {
-    "group": "IVE",
+    "group": "솔로",
     "total_items": 3,
     "full_distribution": {
       "레트로": 1,
@@ -485,7 +474,7 @@
     "secondary": []
   },
   "유나": {
-    "group": "ITZY",
+    "group": "있지",
     "total_items": 3,
     "full_distribution": {
       "걸리시": 1,
@@ -736,7 +725,7 @@
     "secondary": []
   },
   "김나경": {
-    "group": "tripleS",
+    "group": "트리플에스",
     "total_items": 1,
     "full_distribution": {
       "미니멀": 1
@@ -773,16 +762,6 @@
         "pct": 0.1429
       }
     ]
-  },
-  "박보영": {
-    "group": null,
-    "total_items": 2,
-    "full_distribution": {
-      "미니멀": 2
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
   },
   "리아": {
     "group": "있지",
@@ -1195,7 +1174,18 @@
       }
     ]
   },
-  "김소혜, 김세정": {
+  "김소혜": {
+    "group": "아이오아이",
+    "total_items": 2,
+    "full_distribution": {
+      "미니멀": 1,
+      "프레피": 1
+    },
+    "status": "insufficient_data",
+    "primary": null,
+    "secondary": []
+  },
+  "김세정": {
     "group": "아이오아이",
     "total_items": 2,
     "full_distribution": {
@@ -1242,34 +1232,6 @@
         "style": "로맨틱",
         "count": 1,
         "pct": 0.1
-      }
-    ]
-  },
-  "손민수": {
-    "group": "아일릿",
-    "total_items": 6,
-    "full_distribution": {
-      "미니멀": 2,
-      "스트릿": 2,
-      "레트로": 1,
-      "스포티": 1
-    },
-    "status": "ok",
-    "primary": {
-      "style": "미니멀",
-      "count": 2,
-      "pct": 0.3333
-    },
-    "secondary": [
-      {
-        "style": "스트릿",
-        "count": 2,
-        "pct": 0.3333
-      },
-      {
-        "style": "레트로",
-        "count": 1,
-        "pct": 0.1667
       }
     ]
   },
@@ -1404,17 +1366,6 @@
       }
     ]
   },
-  "유주": {
-    "group": null,
-    "total_items": 3,
-    "full_distribution": {
-      "스트릿": 2,
-      "미니멀": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "스텔라": {
     "group": "하츠투하츠",
     "total_items": 3,
@@ -1438,7 +1389,7 @@
     "secondary": []
   },
   "유사랑": {
-    "group": "IVE",
+    "group": "이즈나",
     "total_items": 4,
     "full_distribution": {
       "스트릿": 2,
@@ -1529,7 +1480,7 @@
     "secondary": []
   },
   "예지": {
-    "group": "ITZY",
+    "group": "있지",
     "total_items": 4,
     "full_distribution": {
       "스트릿": 2,
@@ -1541,7 +1492,7 @@
     "secondary": []
   },
   "한유진": {
-    "group": "IVE",
+    "group": "앤더블",
     "total_items": 1,
     "full_distribution": {
       "레트로": 1
@@ -1551,7 +1502,7 @@
     "secondary": []
   },
   "장하오": {
-    "group": "ZEROBASEONE",
+    "group": "앤더블",
     "total_items": 1,
     "full_distribution": {
       "미니멀": 1
@@ -1610,7 +1561,7 @@
     ]
   },
   "재민": {
-    "group": "NCT",
+    "group": "엔시티",
     "total_items": 1,
     "full_distribution": {
       "스트릿": 1
@@ -1769,16 +1720,6 @@
     "primary": null,
     "secondary": []
   },
-  "한수아": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "스트릿": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "나현": {
     "group": "앳하트",
     "total_items": 5,
@@ -1819,7 +1760,7 @@
     "secondary": []
   },
   "리쿠": {
-    "group": "NCT WISH",
+    "group": "엔시티위시",
     "total_items": 3,
     "full_distribution": {
       "스트릿": 2,
@@ -1871,46 +1812,12 @@
     "primary": null,
     "secondary": []
   },
-  "이성경": {
-    "group": null,
-    "total_items": 2,
-    "full_distribution": {
-      "시크": 1,
-      "캐주얼": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "최윤지": {
     "group": "NMIXX",
     "total_items": 2,
     "full_distribution": {
       "미니멀": 1,
       "스포티": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "이즈나": {
-    "group": "IVE",
-    "total_items": 2,
-    "full_distribution": {
-      "미니멀": 1,
-      "스트릿": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "노윤서": {
-    "group": null,
-    "total_items": 3,
-    "full_distribution": {
-      "레트로": 1,
-      "미니멀": 1,
-      "스트릿": 1
     },
     "status": "insufficient_data",
     "primary": null,
@@ -1936,32 +1843,11 @@
     "primary": null,
     "secondary": []
   },
-  "한소희": {
-    "group": null,
-    "total_items": 2,
-    "full_distribution": {
-      "로맨틱": 1,
-      "스트릿": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "애니": {
     "group": "올데이프로젝트",
     "total_items": 1,
     "full_distribution": {
       "스트릿": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "최희진": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "캐주얼": 1
     },
     "status": "insufficient_data",
     "primary": null,
@@ -1977,33 +1863,11 @@
     "primary": null,
     "secondary": []
   },
-  "임지연": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "리조트": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "김다연": {
     "group": "케플러",
     "total_items": 1,
     "full_distribution": {
       "미니멀": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "고윤정": {
-    "group": null,
-    "total_items": 3,
-    "full_distribution": {
-      "미니멀": 1,
-      "스트릿": 1,
-      "클래식": 1
     },
     "status": "insufficient_data",
     "primary": null,
@@ -2085,16 +1949,6 @@
     "total_items": 1,
     "full_distribution": {
       "프레피": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "김태리": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "스포티": 1
     },
     "status": "insufficient_data",
     "primary": null,
@@ -2225,16 +2079,6 @@
     "primary": null,
     "secondary": []
   },
-  "강혜원": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "캐주얼": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
   "곽민경": {
     "group": "환승연애4",
     "total_items": 1,
@@ -2310,16 +2154,6 @@
     "total_items": 1,
     "full_distribution": {
       "로맨틱": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "문가영": {
-    "group": null,
-    "total_items": 1,
-    "full_distribution": {
-      "미니멀": 1
     },
     "status": "insufficient_data",
     "primary": null,

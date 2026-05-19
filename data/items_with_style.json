@@ -392,7 +392,7 @@
     "post_id": "2055064364227387528",
     "post_url": "https://x.com/idoldrip_/status/2055064364227387528",
     "posted_at": "2026-05-14T23:15:00.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "채령",
     "brand": "HETIT",
     "product_name": "코튼 롱 레이스 슬립",
@@ -429,7 +429,7 @@
     "post_id": "2055064364227387528",
     "post_url": "https://x.com/idoldrip_/status/2055064364227387528",
     "posted_at": "2026-05-14T23:15:00.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "채령",
     "brand": "RIBBONBIT",
     "product_name": "Nico Work Jacket",
@@ -766,64 +766,6 @@
     }
   },
   {
-    "post_id": "2055056814065262810",
-    "post_url": "https://x.com/idoldrip_/status/2055056814065262810",
-    "posted_at": "2026-05-14T22:45:00.000Z",
-    "group_name": null,
-    "idol_name": "조이현",
-    "brand": "더바넷",
-    "product_name": "Dot Lace Slip Dress",
-    "color": null,
-    "price": "118,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIT5WU0bwAAXPrO?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIT6XJEbwAAz3sI?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260514 조이현 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nthe-barnnet.com/product/dot-la\nce-slip-dress/3360/\n…\n 더바넷 (THEBARNNET)\n- ✧ Dot Lace Slip Dress\n 가격: 118,000원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\n2Zy9kyE7\n…\n 몽돌 (MONGDOL)\n- ✧ 크로쉐 니트 후드 집업 아이보리",
-    "_parser": "llm",
-    "style": "로맨틱",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.92,
-      "reason": "레이스와 슬립 드레스 조합은 여성스럽고 우아한 로맨틱 스타일의 전형적인 특징입니다. 닷 레이스 디테일은 섬세하고 페미닌한 무드를 강조하며, 슬립 드레스 실루엣은 로맨틱 스타일에서 자주 활용되는 아이템입니다."
-    }
-  },
-  {
-    "post_id": "2055056814065262810",
-    "post_url": "https://x.com/idoldrip_/status/2055056814065262810",
-    "posted_at": "2026-05-14T22:45:00.000Z",
-    "group_name": null,
-    "idol_name": "조이현",
-    "brand": "몽돌",
-    "product_name": "크로쉐 니트 후드 집업",
-    "color": "아이보리",
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIT5WU0bwAAXPrO?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIT6XJEbwAAz3sI?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260514 조이현 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nthe-barnnet.com/product/dot-la\nce-slip-dress/3360/\n…\n 더바넷 (THEBARNNET)\n- ✧ Dot Lace Slip Dress\n 가격: 118,000원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\n2Zy9kyE7\n…\n 몽돌 (MONGDOL)\n- ✧ 크로쉐 니트 후드 집업 아이보리",
-    "_parser": "llm",
-    "style": "캐주얼",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "크로쉐 니트 후드 집업은 편안한 착용감과 실용성을 강조하는 아이템입니다. 크로쉐 소재의 니트는 수작업 느낌의 텍스처를 주며, 후드와 집업 디테일은 일상적이고 편안한 무드를 연출합니다. 아이보리 컬러는 부드럽고 접근하기 쉬운 색상으로 캐주얼 스타일의 기본 특성과 잘 맞습니다. 과도한 장식 없이 실용적이면서도 편안한 디자인이 캐주얼 스타일의 핵심 요소를 충족합니다."
-    }
-  },
-  {
     "post_id": "2055055555757273539",
     "post_url": "https://x.com/idoldrip_/status/2055055555757273539",
     "posted_at": "2026-05-14T22:40:00.000Z",
@@ -885,7 +827,7 @@
     "post_id": "2055054297725866132",
     "post_url": "https://x.com/idoldrip_/status/2055054297725866132",
     "posted_at": "2026-05-14T22:35:00.000Z",
-    "group_name": "IVE",
+    "group_name": "솔로",
     "idol_name": "최예나",
     "brand": "더비 아카이브",
     "product_name": "[the B] 여성 골지 빈티지 아트웍 오픈에리 크롭 티셔츠",
@@ -1968,7 +1910,7 @@
     "post_id": "2054895878952141047",
     "post_url": "https://x.com/idoldrip_/status/2054895878952141047",
     "posted_at": "2026-05-14T12:05:30.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "채령",
     "brand": "GROVE",
     "product_name": "VENI ARGYLE CROP CARDIGAN",
@@ -1997,7 +1939,7 @@
     "post_id": "2054895878952141047",
     "post_url": "https://x.com/idoldrip_/status/2054895878952141047",
     "posted_at": "2026-05-14T12:05:30.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "채령",
     "brand": "GROVE",
     "product_name": "VENI ARGYLE TUBE TOP",
@@ -2026,7 +1968,7 @@
     "post_id": "2054892522808492076",
     "post_url": "https://x.com/idoldrip_/status/2054892522808492076",
     "posted_at": "2026-05-14T11:52:10.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "유나",
     "brand": "포어링",
     "product_name": "Layered cake tee",
@@ -2766,64 +2708,6 @@
     }
   },
   {
-    "post_id": "2054765088641610027",
-    "post_url": "https://x.com/idoldrip_/status/2054765088641610027",
-    "posted_at": "2026-05-14T03:25:47.000Z",
-    "group_name": null,
-    "idol_name": "조이현",
-    "brand": "르니나 (LENINA)",
-    "product_name": "ALLEN puff sleeve crochet jacket_BEIGE",
-    "color": "BEIGE",
-    "price": "203,490원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIP8fopaIAASeql?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIP9zITaMAApPOA?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260513 조이현 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nzTfRefCE\n…\n 르니나 (LENINA)\n- ✧ ALLEN puff sleeve crochet jacket_BEIGE\n 가격: 203,490원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nJxfee38k\n…\n 르니나 (LENINA)\n- ✧ ALLEN crochet",
-    "_parser": "llm",
-    "style": "로맨틱",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "퍼프 슬리브(puff sleeve)와 크로셰(crochet) 디테일은 로맨틱 스타일의 대표적인 특징입니다. 베이지 컬러의 부드러운 느낌과 여성스러운 실루엣, 수공예적 크로셰 기법이 결합되어 페미닌하고 우아한 로맨틱 무드를 강하게 표현합니다."
-    }
-  },
-  {
-    "post_id": "2054765088641610027",
-    "post_url": "https://x.com/idoldrip_/status/2054765088641610027",
-    "posted_at": "2026-05-14T03:25:47.000Z",
-    "group_name": null,
-    "idol_name": "조이현",
-    "brand": "르니나 (LENINA)",
-    "product_name": "ALLEN crochet",
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIP8fopaIAASeql?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIP9zITaMAApPOA?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260513 조이현 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nzTfRefCE\n…\n 르니나 (LENINA)\n- ✧ ALLEN puff sleeve crochet jacket_BEIGE\n 가격: 203,490원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nJxfee38k\n…\n 르니나 (LENINA)\n- ✧ ALLEN crochet",
-    "_parser": "llm",
-    "style": "로맨틱",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "크로셰(crochet) 소재는 손뜨개 기법으로 제작되어 부드럽고 여성스러운 감성을 표현하는 대표적인 로맨틱 스타일 아이템입니다. 섬세한 디테일과 페미닌한 무드가 로맨틱 스타일의 핵심 요소와 부합합니다."
-    }
-  },
-  {
     "post_id": "2054614319200158170",
     "post_url": "https://x.com/idoldrip_/status/2054614319200158170",
     "posted_at": "2026-05-13T17:26:41.000Z",
@@ -2860,7 +2744,7 @@
     "post_id": "2054562816603181328",
     "post_url": "https://x.com/idoldrip_/status/2054562816603181328",
     "posted_at": "2026-05-13T14:02:02.000Z",
-    "group_name": "tripleS",
+    "group_name": "트리플에스",
     "idol_name": "김나경",
     "brand": "에트오소메",
     "product_name": "Bust Line Pintuck Detail Top",
@@ -3051,51 +2935,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "셔링과 드레이프 디테일은 로맨틱 스타일의 대표적 요소입니다. 여성스러운 실루엣과 부드러운 느낌을 강조하는 디자인으로, 비바셔스 브랜드의 페미닌한 감성과도 일치합니다."
-    }
-  },
-  {
-    "post_id": "2054529960547860483",
-    "post_url": "https://x.com/idoldrip_/status/2054529960547860483",
-    "posted_at": "2026-05-13T11:51:28.000Z",
-    "group_name": null,
-    "idol_name": "박보영",
-    "brand": "리엘 (RE L)",
-    "product_name": "Coton knit cardigan set_2piece",
-    "color": "ivory",
-    "price": "151,730원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIMnkHXaIAA3Yiy?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIMoErNbAAAjZTF?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIMgtBJaYAA-esK?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIMgtBKa8AAxkjv?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIMgtBIaYAAE--E?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIMgtBHbsAEqqJQ?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nqxLPvt\n…\n\n260513 박보영 옷장 손민수 𖥔*.･\n 리엘 (RE L)\n- ✧ Coton knit cardigan set_2piece (ivory)\n 가격: 151,730원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#박보영 #PARKBOYOUNG",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "코튼 니트 카디건 세트는 아이보리 컬러의 깔끔하고 절제된 디자인으로, 미니멀 스타일의 핵심인 심플함과 실용성을 잘 보여줍니다. 2피스 세트 구성은 세련되고 정돈된 이미지를 주며, 중고가 가격대는 미니멀 스타일의 품질 지향적 특성과 부합합니다."
     }
   },
   {
@@ -4922,7 +4761,7 @@
     "post_url": "https://x.com/idoldrip_/status/2054423831545295247",
     "posted_at": "2026-05-13T04:49:45.000Z",
     "group_name": "아이오아이",
-    "idol_name": "김소혜, 김세정",
+    "idol_name": "김소혜",
     "brand": "라티젠 (LARTIGENT)",
     "product_name": "L23 STRIPE DEEP V-NECK KNIT",
     "color": "YELLOW",
@@ -4959,7 +4798,81 @@
     "post_url": "https://x.com/idoldrip_/status/2054423831545295247",
     "posted_at": "2026-05-13T04:49:45.000Z",
     "group_name": "아이오아이",
-    "idol_name": "김소혜, 김세정",
+    "idol_name": "김세정",
+    "brand": "라티젠 (LARTIGENT)",
+    "product_name": "L23 STRIPE DEEP V-NECK KNIT",
+    "color": "YELLOW",
+    "price": "93,907원",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/HILGU2aaIAE07JO?format=jpg&name=360x360",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HILHjMQbYAAMUxH?format=jpg&name=360x360",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HIB2D_HaIAAypEe?format=jpg&name=120x120",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HIB2D_NacAABaT_?format=jpg&name=120x120",
+        "type": "unknown"
+      }
+    ],
+    "raw_text": "260511 아이오아이 김소혜 김세정 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nseller.work/products/larti\ngent-ss-26-l23-stripe-deep-v-neck-knit-yellow-yellow-s\n…\n 라티젠 (LARTIGENT)\n- ✧ L23 STRIPE DEEP V-NECK KNIT(YELLOW)\n 가격: 93,907원\n\n𖥔*.･ \nhttps://\nevmoiu.com/product/detail\n.html?product_no=195&cate_no=81&display_group=1\n…\n 에브모우 (EVMOIU)\n- ✧ TWO-WAY V-NECK OFF-SHOULDER METAL ACCENT KNIT",
+    "_parser": "llm",
+    "style": "프레피",
+    "_style_method": "llm",
+    "_style_details": {
+      "confidence": 0.85,
+      "reason": "스트라이프 패턴의 딥 브이넥 니트는 전통적인 프레피 스타일의 핵심 아이템입니다. 옐로우 컬러의 스트라이프 니트는 아이비리그 스타일과 클래식한 골프웨어에서 영감을 받은 전형적인 프레피 룩을 연출합니다. 브이넥 니트 자체가 프레피 스타일의 상징적인 아이템이며, 스트라이프 디테일은 이러한 특성을 더욱 강화합니다."
+    }
+  },
+  {
+    "post_id": "2054423831545295247",
+    "post_url": "https://x.com/idoldrip_/status/2054423831545295247",
+    "posted_at": "2026-05-13T04:49:45.000Z",
+    "group_name": "아이오아이",
+    "idol_name": "김소혜",
+    "brand": "에브모우 (EVMOIU)",
+    "product_name": "TWO-WAY V-NECK OFF-SHOULDER METAL ACCENT KNIT",
+    "color": null,
+    "price": null,
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/HILGU2aaIAE07JO?format=jpg&name=360x360",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HILHjMQbYAAMUxH?format=jpg&name=360x360",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HIB2D_HaIAAypEe?format=jpg&name=120x120",
+        "type": "unknown"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HIB2D_NacAABaT_?format=jpg&name=120x120",
+        "type": "unknown"
+      }
+    ],
+    "raw_text": "260511 아이오아이 김소혜 김세정 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nseller.work/products/larti\ngent-ss-26-l23-stripe-deep-v-neck-knit-yellow-yellow-s\n…\n 라티젠 (LARTIGENT)\n- ✧ L23 STRIPE DEEP V-NECK KNIT(YELLOW)\n 가격: 93,907원\n\n𖥔*.･ \nhttps://\nevmoiu.com/product/detail\n.html?product_no=195&cate_no=81&display_group=1\n…\n 에브모우 (EVMOIU)\n- ✧ TWO-WAY V-NECK OFF-SHOULDER METAL ACCENT KNIT",
+    "_parser": "llm",
+    "style": "미니멀",
+    "_style_method": "llm",
+    "_style_details": {
+      "confidence": 0.85,
+      "reason": "투웨이 V넥과 오프숄더 디자인, 메탈 악센트가 있는 니트는 심플하면서도 세련된 디테일을 강조하는 미니멀 스타일의 특징을 보입니다. 에브모우 브랜드는 모던하고 절제된 디자인을 추구하며, 오프숄더와 메탈 악센트는 미니멀한 베이스에 포인트를 주는 방식으로 미니멀 스타일에 적합합니다."
+    }
+  },
+  {
+    "post_id": "2054423831545295247",
+    "post_url": "https://x.com/idoldrip_/status/2054423831545295247",
+    "posted_at": "2026-05-13T04:49:45.000Z",
+    "group_name": "아이오아이",
+    "idol_name": "김세정",
     "brand": "에브모우 (EVMOIU)",
     "product_name": "TWO-WAY V-NECK OFF-SHOULDER METAL ACCENT KNIT",
     "color": null,
@@ -5430,80 +5343,6 @@
     "_style_details": {
       "confidence": 0.75,
       "reason": "메쉬 소재에 셔링 디테일을 활용한 제품명으로 보아, 깔끔하고 절제된 디자인에 섬세한 디테일을 더한 미니멀 스타일의 특성을 보입니다. 루시르주 브랜드는 주로 심플하면서도 현대적인 감성의 디자인을 선보이는 경향이 있어 미니멀 카테고리에 가장 적합합니다."
-    }
-  },
-  {
-    "post_id": "2054320447194567122",
-    "post_url": "https://x.com/idoldrip_/status/2054320447194567122",
-    "posted_at": "2026-05-12T21:58:56.000Z",
-    "group_name": "아일릿",
-    "idol_name": "손민수",
-    "brand": "코토",
-    "product_name": "CUSTOM MADE 4 ILLIT",
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIJn54obsAATkVN?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIJoeGibIAARbDN?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHztyjPbUAEQnoX?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHzu02raMAAikrN?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260508 아일릿 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ninstagram.com/p/DYHk61FmPmH/\n?img_index=1\n…\n 코토 (COTTO)\n- ✧ CUSTOM MADE 4 ILLIT\n 가격: N/A\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nM63yDJbk\n…\n 스케쳐스 (SKECHERS)\n- ✧ 여성 우노 카오스_SL0WCCFX061\n 가격:",
-    "_parser": "llm",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.75,
-      "reason": "코토(KOTO)는 스트릿 캐주얼 브랜드이며, 'CUSTOM MADE' 제품명은 커스터마이징과 개성을 강조하는 스트릿 문화의 특징을 반영합니다. ILLIT과의 협업은 K-POP 아이돌과 스트릿 패션의 결합으로 젊은 감성의 스트릿 스타일에 부합합니다."
-    }
-  },
-  {
-    "post_id": "2054320447194567122",
-    "post_url": "https://x.com/idoldrip_/status/2054320447194567122",
-    "posted_at": "2026-05-12T21:58:56.000Z",
-    "group_name": "아일릿",
-    "idol_name": "손민수",
-    "brand": "스케쳐스",
-    "product_name": "여성 우노 카오스_SL0WCCFX061",
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIJn54obsAATkVN?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIJoeGibIAARbDN?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHztyjPbUAEQnoX?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHzu02raMAAikrN?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260508 아일릿 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ninstagram.com/p/DYHk61FmPmH/\n?img_index=1\n…\n 코토 (COTTO)\n- ✧ CUSTOM MADE 4 ILLIT\n 가격: N/A\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nM63yDJbk\n…\n 스케쳐스 (SKECHERS)\n- ✧ 여성 우노 카오스_SL0WCCFX061\n 가격:",
-    "_parser": "llm",
-    "style": "스포티",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "스케쳐스는 대표적인 스포츠 캐주얼 브랜드이며, '우노' 라인은 청키 솔 스니커즈로 운동화 베이스의 제품입니다. 'Chaos'라는 네이밍도 스포티한 느낌을 강조하며, 스케쳐스 특유의 편안함과 활동성을 추구하는 스포츠 라이프스타일 제품에 해당합니다."
     }
   },
   {
@@ -6677,72 +6516,6 @@
     }
   },
   {
-    "post_id": "2054118683484803466",
-    "post_url": "https://x.com/idoldrip_/status/2054118683484803466",
-    "posted_at": "2026-05-12T08:37:12.000Z",
-    "group_name": null,
-    "idol_name": "유주",
-    "brand": "애즈유아",
-    "product_name": "사이드 스냅 하프넥 티셔츠",
-    "color": "그레이",
-    "price": "50,400원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIGw2EWaIAAtXAn?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIGyDFibMAAevYq?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIGSrLOXEAA_5X8?format=jpg&name=240x240",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260512 유주 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nWCpNXpTU\n…\n 애즈유아 (AS YOU ARE)\n- ✧ 사이드 스냅 하프넥 티셔츠 그레이\n 가격: 50,400원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\ntU4610ar\n…\n 페인오어플레져 (PAIN OR PLEASURE)\n- ✧",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "하프넥 디자인과 사이드 스냅 디테일은 심플하면서도 기능적인 요소를 강조하는 미니멀 스타일의 특징입니다. 그레이 컬러는 무채색 기반의 미니멀한 감성을 잘 표현하며, 절제된 디자인 요소가 미니멀 스타일에 가장 부합합니다."
-    }
-  },
-  {
-    "post_id": "2054118683484803466",
-    "post_url": "https://x.com/idoldrip_/status/2054118683484803466",
-    "posted_at": "2026-05-12T08:37:12.000Z",
-    "group_name": null,
-    "idol_name": "유주",
-    "brand": "페인오어플레져",
-    "product_name": null,
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIGw2EWaIAAtXAn?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIGyDFibMAAevYq?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIGSrLOXEAA_5X8?format=jpg&name=240x240",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260512 유주 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nWCpNXpTU\n…\n 애즈유아 (AS YOU ARE)\n- ✧ 사이드 스냅 하프넥 티셔츠 그레이\n 가격: 50,400원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\ntU4610ar\n…\n 페인오어플레져 (PAIN OR PLEASURE)\n- ✧",
-    "_parser": "llm",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "페인오어플레져(PAIN OR PLEASURE)는 대표적인 한국 스트릿 패션 브랜드로, 그래픽 디자인과 오버사이즈 실루엣을 강조하는 스트릿웨어를 주력으로 합니다. 힙합과 도시 문화에서 영감을 받은 대담한 로고와 프린팅이 특징이며, 젊은 세대의 스트릿 패션 트렌드를 선도하는 브랜드입니다."
-    }
-  },
-  {
     "post_id": "2054115187649892712",
     "post_url": "https://x.com/idoldrip_/status/2054115187649892712",
     "posted_at": "2026-05-12T08:23:19.000Z",
@@ -7215,7 +6988,7 @@
     "post_id": "2054093063304458452",
     "post_url": "https://x.com/idoldrip_/status/2054093063304458452",
     "posted_at": "2026-05-12T06:55:24.000Z",
-    "group_name": "IVE",
+    "group_name": "이즈나",
     "idol_name": "유사랑",
     "brand": "랭앤루",
     "product_name": "BEBE BUNNY T-Shirts(베베 바니)_PINK",
@@ -7252,7 +7025,7 @@
     "post_id": "2054093063304458452",
     "post_url": "https://x.com/idoldrip_/status/2054093063304458452",
     "posted_at": "2026-05-12T06:55:24.000Z",
-    "group_name": "IVE",
+    "group_name": "이즈나",
     "idol_name": "유사랑",
     "brand": "에즈이프 캘리",
     "product_name": null,
@@ -7613,47 +7386,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "익스파이어드걸은 영페미닌과 스트릿 감성을 결합한 브랜드로, 힙하고 개성있는 디자인을 추구합니다. 브랜드명 자체가 영 캐주얼/스트릿 문화와 연관되어 있으며, 주로 젊은 층을 타겟으로 한 트렌디한 스트릿 패션을 선보입니다."
-    }
-  },
-  {
-    "post_id": "2054084596300702031",
-    "post_url": "https://x.com/idoldrip_/status/2054084596300702031",
-    "posted_at": "2026-05-12T06:21:45.000Z",
-    "group_name": null,
-    "idol_name": "박보영",
-    "brand": "로이로이",
-    "product_name": "헨리넥 셔링 롱 슬리브",
-    "color": "베이비 블루",
-    "price": "46,800원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIGSrPWbwAAd_OI?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIGTDExbYAExhmS?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HICCaRjaoAAkESj?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HICCaRiaEAApIWL?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HICCaR5agAASRUL?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\npeyoJGSL\n…\n\n260511 박보영 옷장 손민수 𖥔*.･\n 로이로이 (ROIROI)\n- ✧ 헨리넥 셔링 롱 슬리브 - 베이비 블루\n 가격: 46,800원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#박보영 #PARKBOYOUNG",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "헨리넥 디테일과 셔링 디자인의 롱 슬리브는 깔끔하고 절제된 디자인을 추구하는 미니멀 스타일의 특징을 보입니다. 베이비 블루 컬러는 부드럽고 세련된 느낌을 주며, 과도한 장식 없이 실루엣과 소재의 질감으로 승부하는 미니멀 감성에 적합합니다. 가격대 또한 합리적이면서 디자인 중심적인 미니멀 브랜드의 특성과 일치합니다."
     }
   },
   {
@@ -9688,7 +9420,7 @@
     "post_id": "2053802193480999300",
     "post_url": "https://x.com/idoldrip_/status/2053802193480999300",
     "posted_at": "2026-05-11T11:39:35.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "유나",
     "brand": "일리고",
     "product_name": "보우 캉캉 스커트 팬츠 멜란지",
@@ -9717,7 +9449,7 @@
     "post_id": "2053799532224446719",
     "post_url": "https://x.com/idoldrip_/status/2053799532224446719",
     "posted_at": "2026-05-11T11:29:00.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "예지",
     "brand": "HARLEY DAVIDSON COLLECTIONS",
     "product_name": "빈티지 바앤실드 볼캡_네이비 HH16181008",
@@ -9750,7 +9482,7 @@
     "post_id": "2053799532224446719",
     "post_url": "https://x.com/idoldrip_/status/2053799532224446719",
     "posted_at": "2026-05-11T11:29:00.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "예지",
     "brand": null,
     "product_name": "love camo t-shirt",
@@ -10208,7 +9940,7 @@
     "post_id": "2053779678088073381",
     "post_url": "https://x.com/idoldrip_/status/2053779678088073381",
     "posted_at": "2026-05-11T10:10:07.000Z",
-    "group_name": "IVE",
+    "group_name": "앤더블",
     "idol_name": "한유진",
     "brand": "샌드사운드",
     "product_name": "(UNISEX) 모헤어 블렌드 라운드넥 스트라이프 카디건 레드 (MS625AA046)",
@@ -10245,7 +9977,7 @@
     "post_id": "2053778733157507555",
     "post_url": "https://x.com/idoldrip_/status/2053778733157507555",
     "posted_at": "2026-05-11T10:06:22.000Z",
-    "group_name": "ZEROBASEONE",
+    "group_name": "앤더블",
     "idol_name": "장하오",
     "brand": "RECTO",
     "product_name": "CREW NECK LAYERED CARDIGAN KNIT TOP",
@@ -10476,7 +10208,7 @@
     "post_id": "2053773487735476421",
     "post_url": "https://x.com/idoldrip_/status/2053773487735476421",
     "posted_at": "2026-05-11T09:45:31.000Z",
-    "group_name": "NCT",
+    "group_name": "엔시티",
     "idol_name": "재민",
     "brand": "잇자바이브",
     "product_name": "MEOW CAT EAR HOODIE ZIP UP",
@@ -11347,7 +11079,7 @@
     "post_id": "2053492074906038498",
     "post_url": "https://x.com/idoldrip_/status/2053492074906038498",
     "posted_at": "2026-05-10T15:07:17.000Z",
-    "group_name": "IZ*ONE",
+    "group_name": "솔로",
     "idol_name": "최예나",
     "brand": "AMI",
     "product_name": "블루 코튼 긴소매 러플 조절형 셔츠",
@@ -11388,7 +11120,7 @@
     "post_id": "2053492074906038498",
     "post_url": "https://x.com/idoldrip_/status/2053492074906038498",
     "posted_at": "2026-05-10T15:07:17.000Z",
-    "group_name": "IZ*ONE",
+    "group_name": "솔로",
     "idol_name": "최예나",
     "brand": "AMI",
     "product_name": "그레이 울 크루넥 Ami De Coeur 가디건",
@@ -13353,43 +13085,6 @@
     }
   },
   {
-    "post_id": "2053144739868991933",
-    "post_url": "https://x.com/idoldrip_/status/2053144739868991933",
-    "posted_at": "2026-05-09T16:07:06.000Z",
-    "group_name": null,
-    "idol_name": "한수아",
-    "brand": "예스아이씨",
-    "product_name": "Y.E.S Goal In Tee Blue",
-    "color": "Blue",
-    "price": "34,300원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH478a6bkAAOcs2?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH48P_HbMAANEJz?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3cDg0awAAjRcI?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3cDg9awAEColH?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\npIev3U\n…\n\n260509 한수아 옷장 손민수 𖥔*.･\n 예스아이씨 (YESEYESEE)\n- ✧ Y.E.S Goal In Tee Blue\n 가격: 34,300원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#한수아 #HANSUA",
-    "_parser": "llm",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "Y.E.S(예스아이씨)는 스트릿 캐주얼 브랜드로, 'Goal In Tee'라는 그래픽 티셔츠 네이밍과 블루 컬러, 3만원대 중반의 합리적인 가격대가 전형적인 스트릿 스타일의 특징을 보여줍니다. 그래픽 티셔츠는 스트릿 패션의 핵심 아이템이며, 브랜드 자체의 정체성도 스트릿 문화와 밀접하게 연관되어 있습니다."
-    }
-  },
-  {
     "post_id": "2053142963887427785",
     "post_url": "https://x.com/idoldrip_/status/2053142963887427785",
     "posted_at": "2026-05-09T16:00:02.000Z",
@@ -13624,7 +13319,7 @@
     "post_id": "2053135984867623270",
     "post_url": "https://x.com/idoldrip_/status/2053135984867623270",
     "posted_at": "2026-05-09T15:32:18.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "예지",
     "brand": "STUSSY",
     "product_name": "Stussy Surf Size Zip Hoodie",
@@ -13661,7 +13356,7 @@
     "post_id": "2053135984867623270",
     "post_url": "https://x.com/idoldrip_/status/2053135984867623270",
     "posted_at": "2026-05-09T15:32:18.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "예지",
     "brand": "LOW CLASSIC",
     "product_name": "Seongsu 86 BALL CAP",
@@ -14248,7 +13943,7 @@
     "post_id": "2053054254512775294",
     "post_url": "https://x.com/idoldrip_/status/2053054254512775294",
     "posted_at": "2026-05-09T10:07:32.000Z",
-    "group_name": "NCT WISH",
+    "group_name": "엔시티위시",
     "idol_name": "리쿠",
     "brand": "SAVAGE",
     "product_name": "Slim Fit Henley Neck Jersey Long Sleeve",
@@ -14289,7 +13984,7 @@
     "post_id": "2053054254512775294",
     "post_url": "https://x.com/idoldrip_/status/2053054254512775294",
     "posted_at": "2026-05-09T10:07:32.000Z",
-    "group_name": "NCT WISH",
+    "group_name": "엔시티위시",
     "idol_name": "리쿠",
     "brand": "CHROME HEARTS",
     "product_name": "Deadly Doll Pink Dagger Logo Zip Up Hoodie",
@@ -14456,99 +14151,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "로타입(LOTYPE)은 대표적인 국내 스트릿 브랜드이며, 'Overline Patch'라는 제품명에서 패치 디테일을 활용한 스트릿 감성의 디자인 요소를 확인할 수 있습니다. 로타입은 그래픽적 요소와 캐주얼한 실루엣을 결합한 스트릿웨어로 잘 알려져 있습니다."
-    }
-  },
-  {
-    "post_id": "2053031635797610985",
-    "post_url": "https://x.com/idoldrip_/status/2053031635797610985",
-    "posted_at": "2026-05-09T08:37:40.000Z",
-    "group_name": "오드유스",
-    "idol_name": "손민수",
-    "brand": "DIESEL",
-    "product_name": "M 멜리 탑",
-    "color": null,
-    "price": "419,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH3UGG8aIAAbsTT?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3VYpubMAA2z7B?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqVa8AACU3s?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqVbEAAnT8E?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqTasAECjUR?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlzQa0AASuNA?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "260509 오드유스 써머 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nfarfetch.com/kr/shopping/wo\nmen/diesel-m-item-25794055.aspx\n…\n 디젤 (DIESEL)\n- ✧ M 멜리 탑\n 가격: 419,000원\n\n𖥔*.･ \nhttps://\nkream.co.kr/products/627945\n 니로 세렌디피티 (NiRO.SERENDIPITY)\n- ✧ NiRO.SERENDiPiTY Mini Zirconium Cross Rope Chain Necklace #111-1 White",
-    "_parser": "llm",
-    "style": "레트로",
-    "_style_method": "dict",
-    "_style_details": {
-      "score": 3,
-      "brand_hits": [
-        "Diesel"
-      ],
-      "keyword_hits": []
-    }
-  },
-  {
-    "post_id": "2053031635797610985",
-    "post_url": "https://x.com/idoldrip_/status/2053031635797610985",
-    "posted_at": "2026-05-09T08:37:40.000Z",
-    "group_name": "오드유스",
-    "idol_name": "손민수",
-    "brand": "NiRO.SERENDIPITY",
-    "product_name": "Mini Zirconium Cross Rope Chain Necklace #111-1",
-    "color": "White",
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH3UGG8aIAAbsTT?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3VYpubMAA2z7B?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqVa8AACU3s?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqVbEAAnT8E?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlqTasAECjUR?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH3SlzQa0AASuNA?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "260509 오드유스 써머 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nfarfetch.com/kr/shopping/wo\nmen/diesel-m-item-25794055.aspx\n…\n 디젤 (DIESEL)\n- ✧ M 멜리 탑\n 가격: 419,000원\n\n𖥔*.･ \nhttps://\nkream.co.kr/products/627945\n 니로 세렌디피티 (NiRO.SERENDIPITY)\n- ✧ NiRO.SERENDiPiTY Mini Zirconium Cross Rope Chain Necklace #111-1 White",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "지르코늄 크로스 로프 체인 목걸이는 간결하고 세련된 액세서리로, 화이트 컬러와 미니 사이즈가 절제된 디자인을 강조합니다. 종교적 상징인 크로스를 미니멀하게 재해석한 심플한 체인 목걸이는 미니멀 스타일의 핵심인 '절제된 아름다움'과 '기능적 심플함'을 잘 표현하고 있습니다."
     }
   },
   {
@@ -15019,7 +14621,7 @@
     "post_id": "2053009166420381767",
     "post_url": "https://x.com/idoldrip_/status/2053009166420381767",
     "posted_at": "2026-05-09T07:08:22.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "리아",
     "brand": "리모네",
     "product_name": "Polka dot Boat Neck Tee",
@@ -15064,7 +14666,7 @@
     "post_id": "2053009166420381767",
     "post_url": "https://x.com/idoldrip_/status/2053009166420381767",
     "posted_at": "2026-05-09T07:08:22.000Z",
-    "group_name": "ITZY",
+    "group_name": "있지",
     "idol_name": "리아",
     "brand": "폴로 스포츠",
     "product_name": "POLO SPORTS",
@@ -15224,88 +14826,6 @@
     }
   },
   {
-    "post_id": "2053003565875294603",
-    "post_url": "https://x.com/idoldrip_/status/2053003565875294603",
-    "posted_at": "2026-05-09T06:46:07.000Z",
-    "group_name": "fromis_9",
-    "idol_name": "손민수",
-    "brand": "키르시",
-    "product_name": "플레인 루즈핏 셔츠",
-    "color": "라이트 퍼플",
-    "price": "64,080원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH23DivaYAAOpxR?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH272n8bwAALPoS?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHFaMAAF3bh?format=jpg&name=240x240",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHAagAAPb7_?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHDbgAAIK-U?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260506 하츠투하츠 카르멘 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nmNxpZv\n…\n 키르시 (KIRSH)\n- ✧ 플레인 루즈핏 셔츠 [라이트 퍼플]\n 가격: 64,080원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nfC5DJc\n…\n 마리떼 프랑소와 저버 (MARITHÉ",
-    "_parser": "llm",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "키르시는 대표적인 스트릿 브랜드이며, 루즈핏 셔츠는 스트릿 스타일의 오버사이즈 핏 트렌드와 일치합니다. 라이트 퍼플 컬러는 스트릿 패션의 실험적이고 트렌디한 색상 선택을 반영합니다."
-    }
-  },
-  {
-    "post_id": "2053003565875294603",
-    "post_url": "https://x.com/idoldrip_/status/2053003565875294603",
-    "posted_at": "2026-05-09T06:46:07.000Z",
-    "group_name": "fromis_9",
-    "idol_name": "손민수",
-    "brand": "마리떼 프랑소와 저버",
-    "product_name": null,
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH23DivaYAAOpxR?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH272n8bwAALPoS?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHFaMAAF3bh?format=jpg&name=240x240",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHAagAAPb7_?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHmppHDbgAAIK-U?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260506 하츠투하츠 카르멘 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nmNxpZv\n…\n 키르시 (KIRSH)\n- ✧ 플레인 루즈핏 셔츠 [라이트 퍼플]\n 가격: 64,080원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nfC5DJc\n…\n 마리떼 프랑소와 저버 (MARITHÉ",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "마리떼 프랑소와 저버는 깔끔한 실루엣과 절제된 디자인을 추구하는 프랑스 감성의 미니멀 브랜드로, 불필요한 장식을 배제하고 본질적인 아름다움을 강조하는 미니멀 스타일에 가장 부합합니다."
-    }
-  },
-  {
     "post_id": "2052996406038999459",
     "post_url": "https://x.com/idoldrip_/status/2052996406038999459",
     "posted_at": "2026-05-09T06:17:40.000Z",
@@ -15447,80 +14967,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "테일러드(tailored) 디자인과 3버튼 디테일은 전통적인 정통 재단 기법을 활용한 클래식 스타일의 대표적 특징입니다. 그레이 컬러는 클래식 스타일의 기본 색상이며, 미니 스커트 형태이지만 테일러드 재단과 버튼 디테일이 격식있고 세련된 클래식 감성을 강하게 드러냅니다."
-    }
-  },
-  {
-    "post_id": "2052991080321421587",
-    "post_url": "https://x.com/idoldrip_/status/2052991080321421587",
-    "posted_at": "2026-05-09T05:56:30.000Z",
-    "group_name": null,
-    "idol_name": "이성경",
-    "brand": "SANDRO",
-    "product_name": "Studded Suede Jacket",
-    "color": "Camel",
-    "price": "1,415,500원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH2vDrgaEAAwTIn?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH2wfRWa0AAufqX?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHyhSrNa0AAOVhV?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHyhSteaMAA1ML4?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260508 이성경 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\nssfshop.com/SANDRO/GM00260\n12945659/good?dspCtgryNo=SFMA41A21&brandShopNo=BDMA07B14&brndShopId=ECBZD&keyword=&leftBrandNM=&utag=ref_cat:SFMA41A21$ref_brn:BDMA07B14$ref_br:ECBZD$set:1$$dpos:4\n…\n 산드로 (SANDRO)\n- ✧ Studded Suede Jacket - Camel\n 가격: 1,415,500원\n\n𖥔*.･ \nhttps://\nsandro.ae/products/sfpsh\n00565-riveted-denim-and-suede-shorts-light-blue-jean\n…\n 산드로 (SANDRO)\n- ✧ Canyon Riveted Denim And",
-    "_parser": "llm",
-    "style": "시크",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "SANDRO는 프랑스 파리지앵 감성의 컨템포러리 브랜드로, 스터드 장식이 들어간 스웨이드 재킷은 세련되고 도시적인 무드를 표현합니다. 카멜 컬러의 스웨이드 소재와 스터드 디테일의 조합은 클래식한 요소에 엣지를 더한 시크 스타일의 전형적인 특징이며, 140만원대의 고가 정책 또한 시크 스타일의 럭셔리하고 세련된 포지셔닝과 부합합니다."
-    }
-  },
-  {
-    "post_id": "2052991080321421587",
-    "post_url": "https://x.com/idoldrip_/status/2052991080321421587",
-    "posted_at": "2026-05-09T05:56:30.000Z",
-    "group_name": null,
-    "idol_name": "이성경",
-    "brand": "SANDRO",
-    "product_name": "Canyon Riveted Denim And Suede Shorts",
-    "color": "Light Blue Jean",
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH2vDrgaEAAwTIn?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH2wfRWa0AAufqX?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHyhSrNa0AAOVhV?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HHyhSteaMAA1ML4?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260508 이성경 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\nssfshop.com/SANDRO/GM00260\n12945659/good?dspCtgryNo=SFMA41A21&brandShopNo=BDMA07B14&brndShopId=ECBZD&keyword=&leftBrandNM=&utag=ref_cat:SFMA41A21$ref_brn:BDMA07B14$ref_br:ECBZD$set:1$$dpos:4\n…\n 산드로 (SANDRO)\n- ✧ Studded Suede Jacket - Camel\n 가격: 1,415,500원\n\n𖥔*.･ \nhttps://\nsandro.ae/products/sfpsh\n00565-riveted-denim-and-suede-shorts-light-blue-jean\n…\n 산드로 (SANDRO)\n- ✧ Canyon Riveted Denim And",
-    "_parser": "llm",
-    "style": "캐주얼",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "데님과 스웨이드 소재의 리벳 디테일이 있는 반바지는 편안하면서도 일상적인 착용감을 제공하는 전형적인 캐주얼 아이템입니다. 라이트 블루 진 컬러는 캐주얼 스타일의 대표적인 색상이며, 반바지라는 아이템 특성상 편안한 일상복으로 적합합니다."
     }
   },
   {
@@ -15917,64 +15363,6 @@
     }
   },
   {
-    "post_id": "2052863904494305512",
-    "post_url": "https://x.com/idoldrip_/status/2052863904494305512",
-    "posted_at": "2026-05-08T21:31:09.000Z",
-    "group_name": "IVE",
-    "idol_name": "이즈나",
-    "brand": "스키즘 인듀싱 (SCHISM INDUCING)",
-    "product_name": "HEISEI GYARU ONEPIECE BLACK",
-    "color": "BLACK",
-    "price": "88,200원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH07m1xbgAAaYzk?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH08ws1bgAAVoK5?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260506 이즈나 마이 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nBfHvCi\n…\n 스키즘 인듀싱 (SCHISM INDUCING)\n- ✧ HEISEI GYARU ONEPIECE BLACK\n 가격: 88,200원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\niHBIRB\n…\n 애즈유아 (AS YOU ARE)\n- ✧ AU",
-    "_parser": "llm",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "HEISEI GYARU(헤이세이 갸루)는 일본 스트릿 패션 문화를 대표하는 스타일로, 원피스 형태이지만 블랙 컬러와 갸루 문화의 반항적이고 개성 강한 이미지가 스트릿 패션의 특징과 부합함. 브랜드명 'SCHISM INDUCING'(분열을 유도하는)도 파격적이고 도발적인 스트릿 감성을 나타냄"
-    }
-  },
-  {
-    "post_id": "2052863904494305512",
-    "post_url": "https://x.com/idoldrip_/status/2052863904494305512",
-    "posted_at": "2026-05-08T21:31:09.000Z",
-    "group_name": "IVE",
-    "idol_name": "이즈나",
-    "brand": "애즈유아 (AS YOU ARE)",
-    "product_name": "AU",
-    "color": null,
-    "price": null,
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HH07m1xbgAAaYzk?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HH08ws1bgAAVoK5?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260506 이즈나 마이 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nBfHvCi\n…\n 스키즘 인듀싱 (SCHISM INDUCING)\n- ✧ HEISEI GYARU ONEPIECE BLACK\n 가격: 88,200원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\niHBIRB\n…\n 애즈유아 (AS YOU ARE)\n- ✧ AU",
-    "_parser": "llm",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.75,
-      "reason": "브랜드명 'AS YOU ARE'는 '있는 그대로'라는 의미로 꾸미지 않은 본질적 스타일을 추구하며, 제품명 'AU'(금의 원소기호)도 순수하고 본질적인 가치를 상징합니다. 이러한 철학은 절제되고 심플한 디자인을 지향하는 미니멀 스타일과 가장 부합합니다. 다만 추가 정보(색상, 가격, 제품 디테일)가 부족하여 확신도는 중상 수준입니다."
-    }
-  },
-  {
     "post_id": "2052860153524011223",
     "post_url": "https://x.com/idoldrip_/status/2052860153524011223",
     "posted_at": "2026-05-08T21:16:15.000Z",
@@ -16178,43 +15566,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "NEOTERIA 브랜드의 'QNOTI · SILVER' 제품은 실버 컬러와 간결한 네이밍에서 절제되고 깔끔한 디자인 철학을 보여줍니다. 69,800원의 가격대와 색상 없이 실버만 강조한 점은 장식을 최소화하고 본질에 집중하는 미니멀 스타일의 특징과 일치합니다."
-    }
-  },
-  {
-    "post_id": "2056536145694257481",
-    "post_url": "https://x.com/idoldrip_/status/2056536145694257481",
-    "posted_at": "2026-05-19T00:43:20.000Z",
-    "group_name": null,
-    "idol_name": "노윤서",
-    "brand": "오버듀플레어 (OVERDUEFLAIR)",
-    "product_name": "NEW VINTAGE PRINTING T-SHIRT_CHARCOAL",
-    "color": null,
-    "price": "75,050원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIpIO3daQAE7q5F?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIpIt2Ma0AAYDsN?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIl2UmeboAATM-L?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIl3omBa8AEG-gC?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nzJ44Dq\n…\n\n260518 노윤서 옷장 손민수 𖥔*.･\n 오버듀플레어 (OVERDUEFLAIR)\n- ✧ NEW VINTAGE PRINTING T-SHIRT_CHARCOAL\n 가격: 75,050원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#노윤서 #ROHYOONSEO",
-    "_parser": "regex",
-    "style": "레트로",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "제품명에 'VINTAGE'가 명시되어 있어 복고풍 스타일을 직접적으로 표현하고 있으며, PRINTING T-SHIRT라는 디자인 요소와 CHARCOAL 컬러는 레트로 스타일의 전형적인 특징입니다. 빈티지 프린팅 디테일은 과거 시대의 감성을 재현하는 레트로 무드와 정확히 일치합니다."
     }
   },
   {
@@ -16555,47 +15906,6 @@
     "_style_details": {
       "confidence": 0.92,
       "reason": "브랜드명 '2000아카이브스'에서 '2000'과 '아카이브스'라는 키워드가 2000년대 초반의 패션을 아카이빙하고 재해석하는 콘셉트를 강하게 시사합니다. 이는 과거 특정 시대의 스타일을 현대적으로 재현하는 레트로 스타일의 핵심 특징과 정확히 일치합니다."
-    }
-  },
-  {
-    "post_id": "2056403661442687421",
-    "post_url": "https://x.com/idoldrip_/status/2056403661442687421",
-    "posted_at": "2026-05-18T15:56:53.000Z",
-    "group_name": null,
-    "idol_name": "한소희",
-    "brand": "일라 (ILA)",
-    "product_name": "Swan Flounced Chiffon Mini Dress",
-    "color": null,
-    "price": "1,130,752원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HInPqt-bkAAqERv?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HInQNu2bcAAorZi?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImpJiObwAAx95c?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImpJjhawAA-Lv0?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImpJkxacAAE4gj?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "𖥔*.･ \nhttps://\nmodaoperandi.com/women/p/ila/sw\nan-flounced-chiffon-mini-dress/657010?country=GB&currency=GBP\n…\n\n260518 한소희 옷장 손민수 𖥔*.･\n 일라 (ILA)\n- ✧ Swan Flounced Chiffon Mini Dress\n 가격: 1,130,752원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#한소희 #HANSOHEE",
-    "_parser": "regex",
-    "style": "로맨틱",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.95,
-      "reason": "Swan(백조)이라는 네이밍과 Flounced(프릴장식) Chiffon 소재의 미니 드레스는 전형적인 로맨틱 스타일의 특징을 보임. 시폰 소재의 플라운스 디테일은 여성스럽고 우아한 무드를 강조하며, 고가격대(113만원)는 프리미엄 로맨틱 라인을 지향함을 시사함"
     }
   },
   {
@@ -16940,43 +16250,6 @@
     }
   },
   {
-    "post_id": "2056335067983798330",
-    "post_url": "https://x.com/idoldrip_/status/2056335067983798330",
-    "posted_at": "2026-05-18T11:24:19.000Z",
-    "group_name": null,
-    "idol_name": "최희진",
-    "brand": "지그재그 (ZIGZAG)",
-    "product_name": "[단독진행!컬러추가!] 르머 티셔츠 -5 color",
-    "color": null,
-    "price": "25,590원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HImQBpqboAAQfNQ?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImRcEBa4AAZWir?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HGxGDXQbMAArn2j?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HGxGl9ra0AA8u3Q?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260424 최희진 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ns.zigzag.kr/abr/SMCd36bxtq\n 지그재그 (ZIGZAG)\n- ✧ [단독진행!컬러추가!] 르머 티셔츠 -5 color\n 가격: 25,590원\n\n𖥔*.･ \nhttps://\napplink.a-bly.com/iegq9e\n 에이블리 (ABLY)\n- ✧",
-    "_parser": "regex",
-    "style": "캐주얼",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "기본 티셔츠 아이템으로 다양한 컬러 옵션(5 color)을 제공하며, 2만원대 중반의 합리적인 가격대는 일상복으로 편하게 입을 수 있는 캐주얼 스타일의 전형적인 특징입니다. 브랜드명 '지그재그'와 '단독진행' 문구는 대중적인 캐주얼 시장을 타겟하는 것으로 보입니다."
-    }
-  },
-  {
     "post_id": "2056332595588485432",
     "post_url": "https://x.com/idoldrip_/status/2056332595588485432",
     "posted_at": "2026-05-18T11:14:30.000Z",
@@ -17048,51 +16321,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "제이디드 런던은 영국 브랜드로 에지있고 대담한 스트릿 패션으로 유명하며, 스트랩이 강조된 코르셋 탑은 스트릿 패션의 실험적이고 과감한 디자인 특성을 잘 보여줍니다. 코르셋 디테일과 스트랩 디자인은 도시적이고 현대적인 스트릿 스타일에 적합합니다."
-    }
-  },
-  {
-    "post_id": "2056326709771677825",
-    "post_url": "https://x.com/idoldrip_/status/2056326709771677825",
-    "posted_at": "2026-05-18T10:51:06.000Z",
-    "group_name": null,
-    "idol_name": "임지연",
-    "brand": "비키니밴더 (VIKINI VENDER)",
-    "product_name": "말리부 트라이앵글 비키니 사롱 Set 3pcs - Navy paisely *",
-    "color": null,
-    "price": "50,310원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HImItecaEAAupFu?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImKMo8bgAAYWW-?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImIiioa4AARKPi?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImIiirbIAAemVU?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImIiioagAAKWcs?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImIiitbMAAL-cu?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260517 임지연 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ncurator.29cm.co.kr/short-link/goo\nds/oms336e9\n…\n 비키니밴더 (VIKINI VENDER)\n- ✧ 말리부 트라이앵글 비키니 사롱 Set 3pcs - Navy paisely *\n 가격: 50,310원\n\n𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nKEjaeZuM\n…\n 비키니밴더",
-    "_parser": "regex",
-    "style": "리조트",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.95,
-      "reason": "비키니와 사롱 세트는 전형적인 리조트웨어이며, 페이즐리 패턴의 네이비 컬러는 휴양지/해변 스타일을 명확히 나타냅니다. 말리부라는 제품명 자체가 캘리포니아 해변 리조트를 연상시키며, 트라이앵글 비키니는 리조트 패션의 대표적인 아이템입니다."
     }
   },
   {
@@ -17289,51 +16517,6 @@
     }
   },
   {
-    "post_id": "2056316041207357664",
-    "post_url": "https://x.com/idoldrip_/status/2056316041207357664",
-    "posted_at": "2026-05-18T10:08:43.000Z",
-    "group_name": null,
-    "idol_name": "노윤서",
-    "brand": "리임 (RHEME)",
-    "product_name": "Off Shoulder Basic T-Shirt - Brown",
-    "color": null,
-    "price": "44,900원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HImATPya0AAXWgm?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HImAgj5bkAAeAZC?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlspNEWMAAYUpU?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlspNBXEAAUtmE?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlspNCWcAAEbf-?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlspNBWAAAEiTv?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\ncurator.29cm.co.kr/short-link/goo\nds/nuwo8gay\n…\n\n260518 노윤서 옷장 손민수 𖥔*.･\n 리임 (RHEME)\n- ✧ Off Shoulder Basic T-Shirt - Brown\n 가격: 44,900원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#노윤서 #ROHYOONSEO",
-    "_parser": "regex",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "오프숄더 베이직 티셔츠는 단순하고 깔끔한 디자인으로 미니멀 스타일의 핵심 요소인 절제된 실루엣과 베이직한 아이템 활용을 잘 보여줍니다. 브라운 컬러 또한 무채색 계열의 차분한 톤으로 미니멀 스타일에 자주 활용되는 색상입니다. 과도한 장식 없이 어깨 라인을 드러내는 심플한 디테일이 특징적입니다."
-    }
-  },
-  {
     "post_id": "2056314976340791615",
     "post_url": "https://x.com/idoldrip_/status/2056314976340791615",
     "posted_at": "2026-05-18T10:04:29.000Z",
@@ -17360,43 +16543,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "캘빈클라인 진은 깔끔하고 심플한 디자인의 대표적인 미니멀 브랜드입니다. 모노그램 엠브로이더리 볼캡은 과도한 장식 없이 브랜드 로고만을 절제되게 표현한 제품으로, 단순하면서도 세련된 미니멀 스타일의 전형적인 특징을 보여줍니다. 남녀공용 디자인 또한 젠더리스한 미니멀 미학과 잘 부합합니다."
-    }
-  },
-  {
-    "post_id": "2056313441049280686",
-    "post_url": "https://x.com/idoldrip_/status/2056313441049280686",
-    "posted_at": "2026-05-18T09:58:23.000Z",
-    "group_name": null,
-    "idol_name": "고윤정",
-    "brand": "로우클래식 (LOW CLASSIC)",
-    "product_name": "WASHED COTTON BIKER JACKET_CHARCOAL [LW261JK01CC]",
-    "color": null,
-    "price": "265,670원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIl8ly0bEAA4b44?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIl9u-Ra4AABElw?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIj9BegbcAAqppO?format=jpg&name=240x240",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIj9Befa4AAyT1t?format=jpg&name=240x240",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\ncurator.29cm.co.kr/short-link/goo\nds/9gdlq3lz\n…\n\n260518 고윤정 옷장 손민수 𖥔*.･\n 로우클래식 (LOW CLASSIC)\n- ✧ WASHED COTTON BIKER JACKET_CHARCOAL [LW261JK01CC]\n 가격: 265,670원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#고윤정 #GOYOUNJUNG",
-    "_parser": "regex",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "로우클래식은 대표적인 미니멀 브랜드로, 깔끔한 실루엣과 절제된 디자인을 추구합니다. WASHED COTTON BIKER JACKET은 바이커 재킷이라는 클래식한 아이템을 차콜 색상의 워시드 코튼 소재로 재해석하여 미니멀하고 세련된 감성을 표현합니다. 과도한 장식 없이 실루엣과 소재로 완성도를 높이는 것이 미니멀 스타일의 핵심입니다."
     }
   },
   {
@@ -17459,51 +16605,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "후디 셋업은 스트릿 패션의 대표적인 아이템이며, 리벳 디테일과 그레이 컬러는 도시적이고 캐주얼한 스트릿 감성을 표현합니다. 159,000원의 가격대는 컨템포러리 스트릿웨어 브랜드의 전형적인 포지셔닝이며, 셋업 구성은 최근 스트릿 패션의 주요 트렌드입니다."
-    }
-  },
-  {
-    "post_id": "2056306369008169045",
-    "post_url": "https://x.com/idoldrip_/status/2056306369008169045",
-    "posted_at": "2026-05-18T09:30:17.000Z",
-    "group_name": null,
-    "idol_name": "노윤서",
-    "brand": "오버듀플레어 (OVERDUEFLAIR)",
-    "product_name": "NEW VINTAGE PRINTING T-SHIRT_CHARCOAL",
-    "color": null,
-    "price": "75,050원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIl2UmeboAATM-L?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIl3omBa8AEG-gC?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlwF_JbkAA-7Rq?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlwF_NbwAAk0If?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlwF_PbIAEtNXA?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIlwF_Kb0AARwpT?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260518 노윤서 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nzJ44Dq\n…\n 오버듀플레어 (OVERDUEFLAIR)\n- ✧ NEW VINTAGE PRINTING T-SHIRT_CHARCOAL\n 가격: 75,050원\n\n𖥔*.･ \nhttps://\ntoomuch.tax/product/5-7-%E\nC%98%88%EC%95%BD-%EB%B0%9C%EC%86%A1-leo-waffle-pants-black/1697/\n…\n 투머치택스 (TOOMUCHTAX)\n-",
-    "_parser": "regex",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "빈티지 프린팅 티셔츠라는 제품명과 차콜 컬러는 전형적인 스트릿 패션의 특징을 보여줍니다. 그래픽 프린팅과 빈티지 감성은 스트릿 스타일의 핵심 요소이며, 오버듀플레어 브랜드 또한 스트릿 캐주얼 지향성을 가진 브랜드입니다."
     }
   },
   {
@@ -18044,35 +17145,6 @@
     }
   },
   {
-    "post_id": "2056111051788390448",
-    "post_url": "https://x.com/idoldrip_/status/2056111051788390448",
-    "posted_at": "2026-05-17T20:34:10.000Z",
-    "group_name": null,
-    "idol_name": "유주",
-    "brand": "셋업이엑스이 (SETUP-EXE)",
-    "product_name": "OVER CHECK SHIRT / GREEN",
-    "color": null,
-    "price": "89,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIjE9xuacAAfNig?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIjGDDtaQAAzZUF?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nLfyyvZV4\n…\n\n260517 유주 옷장 손민수 𖥔*.･\n 셋업이엑스이 (SETUP-EXE)\n- ✧ OVER CHECK SHIRT / GREEN\n 가격: 89,000원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n \n@971004_yuju\n\n#유주 #YUJU #여자친구 #GFRIEND",
-    "_parser": "regex",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "셋업이엑스이는 대표적인 스트릿 브랜드이며, 오버핏 체크 셔츠는 스트릿 패션의 핵심 아이템입니다. 그린 컬러의 오버핏 실루엣은 캐주얼하면서도 트렌디한 스트릿 감성을 잘 표현하고 있습니다."
-    }
-  },
-  {
     "post_id": "2056109271981670753",
     "post_url": "https://x.com/idoldrip_/status/2056109271981670753",
     "posted_at": "2026-05-17T20:27:05.000Z",
@@ -18305,43 +17377,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "카모플라주 패턴의 후드 집업은 전형적인 스트릿 패션 아이템입니다. '엔젤 카모'라는 독특한 디자인 요소와 후디 집업 형태는 스트릿 스타일의 캐주얼하고 개성 있는 특징을 잘 나타냅니다. 가격대도 스트릿 브랜드의 일반적인 범위에 속합니다."
-    }
-  },
-  {
-    "post_id": "2056038582914273469",
-    "post_url": "https://x.com/idoldrip_/status/2056038582914273469",
-    "posted_at": "2026-05-17T15:46:12.000Z",
-    "group_name": null,
-    "idol_name": "고윤정",
-    "brand": "베루툼 (VERUTUM)",
-    "product_name": "HW-BC238B : VRM Symbol Logo Bio Washing Cap_Navy",
-    "color": null,
-    "price": "89,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIiDMm3bEAA1rkk?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIiEH6EbYAAM-KT?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIhqw0ya8AE_B0A?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIhqw0zaIAEDP0-?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260517 고윤정 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ncurator.29cm.co.kr/short-link/goo\nds/rqa2vytn\n…\n 베루툼 (VERUTUM)\n- ✧ HW-BC238B : VRM Symbol Logo Bio Washing Cap_Navy\n 가격: 89,000원\n\n𖥔*.･ \nhttps://\nabercrombie.com/shop/wd/p/deni\nm-button-up-shirt-61153830?faceout=life&seq=01&pagefm=navigation-grid&prodvm=navigation-grid\n…\n 아베크롬비 (ABERCROMBIE)\n-",
-    "_parser": "regex",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "로고가 강조된 워싱 캡은 스트릿 패션의 대표적인 아이템이며, 89,000원의 프리미엄 가격대와 'Symbol Logo'라는 네이밍은 스트릿 브랜드의 시그니처 아이템 특성을 보여줍니다. 바이오 워싱 기법은 빈티지한 질감을 연출하여 스트릿 감성을 더욱 강화합니다."
     }
   },
   {
@@ -18773,35 +17808,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "더블 지퍼 디테일의 슬리브리스 디자인과 브라운 컬러는 절제된 디자인과 실용성을 강조하는 미니멀 스타일의 특징을 보여줍니다. 장식을 최소화하고 기능적 디테일(더블 지퍼)을 활용한 점, 중성적인 브라운 톤이 미니멀 스타일의 정수를 나타냅니다."
-    }
-  },
-  {
-    "post_id": "2055939491240759732",
-    "post_url": "https://x.com/idoldrip_/status/2055939491240759732",
-    "posted_at": "2026-05-17T09:12:26.000Z",
-    "group_name": null,
-    "idol_name": "김태리",
-    "brand": "알로 (ALO)",
-    "product_name": "Tennis Club Sweater Knit Dress",
-    "color": null,
-    "price": "207,966원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIgn4gsbwAATqbP?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIgp91HaAAAheJW?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "260517 김태리 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\naloyoga.com/en-jp/products\n/w3847r-tennis-club-sweater-knit-cardigan-black-ivory\n…\n 알로 (ALO)\n- ✧ Tennis Club Sweater Knit Cardigan\n 가격: 236,325원\n\n𖥔*.･ \nhttps://\naloyoga.com/en-jp/products\n/w8277r-tennis-club-sweater-knit-dress-black-ivory\n…\n 알로 (ALO)\n- ✧ Tennis Club Sweater Knit Dress\n 가격: 207,966원\n\n𖥔*.･ \nhttps://\naloyoga.com/en-jp/products\n/a1054u-alo-mini-odyssey-black\n…",
-    "_parser": "regex",
-    "style": "스포티",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.92,
-      "reason": "알로(ALO)는 애슬레저 및 요가웨어 전문 브랜드이며, 'Tennis Club'이라는 제품명과 'Sweater Knit Dress'라는 스포츠 요소가 결합된 형태로 스포티 스타일의 전형적인 특징을 보임. 테니스 클럽이라는 명칭은 스포츠와 일상을 결합한 애슬레저 트렌드를 반영하며, 20만원대 가격대는 프리미엄 스포티 라인에 해당"
     }
   },
   {
@@ -20096,55 +19102,6 @@
     }
   },
   {
-    "post_id": "2055679845733171327",
-    "post_url": "https://x.com/idoldrip_/status/2055679845733171327",
-    "posted_at": "2026-05-16T16:00:42.000Z",
-    "group_name": null,
-    "idol_name": "강혜원",
-    "brand": "폴로 랄프 로렌 (POLO RALPH LAUREN)",
-    "product_name": "W 1967 로고 리브 티 - 화이트",
-    "color": null,
-    "price": "97,300원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIc96P_aIAA_8cd?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIc96uFa4AAGjzW?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIcSLxSa8AI2nSO?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIcSOv1awAAjAtJ?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIcSOxSbcAAQwbE?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIcSOuwbQAADz22?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nmusinsa.com/curator/goods/\nu1DZfwri\n…\n\n260516 강혜원 옷장 손민수 𖥔*.･\n 폴로 랄프 로렌 (POLO RALPH LAUREN)\n- ✧ W 1967 로고 리브 티 - 화이트\n 가격: 97,300원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#강혜원 #KANGHYEWON #아이즈원",
-    "_parser": "regex",
-    "style": "캐주얼",
-    "_style_method": "dict",
-    "_style_details": {
-      "score": 6,
-      "brand_hits": [
-        "폴로",
-        "POLO"
-      ],
-      "keyword_hits": []
-    }
-  },
-  {
     "post_id": "2055620258782929254",
     "post_url": "https://x.com/idoldrip_/status/2055620258782929254",
     "posted_at": "2026-05-16T12:03:55.000Z",
@@ -21108,39 +20065,6 @@
     }
   },
   {
-    "post_id": "2055527844562993423",
-    "post_url": "https://x.com/idoldrip_/status/2055527844562993423",
-    "posted_at": "2026-05-16T05:56:42.000Z",
-    "group_name": null,
-    "idol_name": "고윤정",
-    "brand": "샤넬 (CHANEL)",
-    "product_name": "샤넬 도빌 토트겸 숄더백 A66941",
-    "color": null,
-    "price": "3,800,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIazAuMa0AAFwaw?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIazq8bbcAEH8Ee?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "260516 고윤정 옷장 손민수 𖥔*.･\n\n𖥔*.･ \nhttps://\nacnestudios.com/kr/ko/layered-\nknit-top-beige/A60649-AEK.html\n…\n 아크네 스튜디오 (ACNE STUDIOS)\n- ✧ 레이어드 니트 탑 베이지\n 가격: 710,000원\n\n𖥔*.･ \nhttps://\ngugus.co.kr/goods/viewGood\ns?goodsNo=10396927\n…\n 샤넬 (CHANEL)\n- ✧ 샤넬 도빌 토트겸 숄더백 A66941\n 가격: 3,800,000원\n\n𖥔 전체 리스트는 상단",
-    "_parser": "regex",
-    "style": "클래식",
-    "_style_method": "dict",
-    "_style_details": {
-      "score": 6,
-      "brand_hits": [
-        "Chanel",
-        "샤넬"
-      ],
-      "keyword_hits": []
-    }
-  },
-  {
     "post_id": "2055339045472133338",
     "post_url": "https://x.com/idoldrip_/status/2055339045472133338",
     "posted_at": "2026-05-15T17:26:29.000Z",
@@ -21846,51 +20770,6 @@
     }
   },
   {
-    "post_id": "2055249852435763472",
-    "post_url": "https://x.com/idoldrip_/status/2055249852435763472",
-    "posted_at": "2026-05-15T11:32:04.000Z",
-    "group_name": null,
-    "idol_name": "문가영",
-    "brand": "애니빙 (ANNIE BING)",
-    "product_name": "크롭 그래픽 티셔츠",
-    "color": null,
-    "price": "157,000원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIW2SY8b0AAd08T?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIW207NaYAEEFuv?format=jpg&name=360x360",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIPsfBCbQAECDE3?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIPsfA_awAA1aOw?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIPsfBCbwAAB4Rc?format=jpg&name=120x120",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIPsfBPbYAAV-9V?format=jpg&name=120x120",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n 𖥔*.･ \nhttps://\nlink.coupang.com/a/dLZbUDKUcC\n\n260514 문가영 옷장 손민수 𖥔*.･\n 애니빙 (ANNIE BING)\n- ✧ 크롭 그래픽 티셔츠\n 가격: 157,000원\n\n𖥔 전체 리스트는 상단 고정에서 확인\n#문가영 #MOONGAYOUNG",
-    "_parser": "regex",
-    "style": "미니멀",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "애니빙은 LA 기반의 컨템포러리 브랜드로 세련되고 절제된 디자인이 특징입니다. 크롭 그래픽 티셔츠는 심플한 실루엣에 포인트 그래픽을 활용한 미니멀한 접근 방식을 보여주며, 가격대 역시 프리미엄 베이직 라인에 해당합니다. 불필요한 장식 없이 깔끔한 디자인과 고급스러운 소재감을 추구하는 미니멀 스타일에 가장 적합합니다."
-    }
-  },
-  {
     "post_id": "2055248885036277794",
     "post_url": "https://x.com/idoldrip_/status/2055248885036277794",
     "posted_at": "2026-05-15T11:28:13.000Z",
@@ -22102,35 +20981,6 @@
     "_style_details": {
       "confidence": 0.85,
       "reason": "보트넥 디자인의 쉬어 니트에 베이비 핑크 컬러는 여성스럽고 부드러운 감성을 강조하는 전형적인 로맨틱 스타일의 특징을 가지고 있습니다. 쉬어(sheer) 소재의 투명한 느낌과 파스텔 핑크 컬러 조합은 로맨틱 룩의 핵심 요소입니다."
-    }
-  },
-  {
-    "post_id": "2055234540898316368",
-    "post_url": "https://x.com/idoldrip_/status/2055234540898316368",
-    "posted_at": "2026-05-15T10:31:13.000Z",
-    "group_name": null,
-    "idol_name": "한소희",
-    "brand": "토니 웩 (TONYWACK)",
-    "product_name": "LOW-RISE DENIM BOOTCUT TROUSERS_ WASHED BLACK",
-    "color": null,
-    "price": "108,930원",
-    "images": [
-      {
-        "url": "https://pbs.twimg.com/media/HIWov0HbsAAvVup?format=jpg&name=small",
-        "type": "unknown"
-      },
-      {
-        "url": "https://pbs.twimg.com/media/HIWowIFbEAA6l2C?format=jpg&name=360x360",
-        "type": "unknown"
-      }
-    ],
-    "raw_text": "하단 링크를 통해 구매 시 일정 수수료를 제공받습니다.\n𖥔 260515 한소희 옷장 손민수 𖥔*.･\n\n 𖥔*.･ \nhttps://\ncurator.29cm.co.kr/short-link/goo\nds/2c6ybctc\n…\n 토니 웩 (TONYWACK)\n- ✧ LOW-RISE DENIM BOOTCUT TROUSERS_ WASHED BLACK\n 가격: 108,930원\n\n𖥔*.･ \nhttps://\nkream.co.kr/products/27734\n3?base_product_id=575195\n…\n 알라이아 (ALAIA)\n- ✧ Alaia",
-    "_parser": "regex",
-    "style": "스트릿",
-    "_style_method": "llm",
-    "_style_details": {
-      "confidence": 0.85,
-      "reason": "로우라이즈 부츠컷 데님 팬츠는 Y2K 트렌드와 스트릿 패션의 대표적인 아이템입니다. 워시드 블랙 컬러와 부츠컷 실루엣은 힙합과 스케이트보드 문화에서 유래한 스트릿 스타일의 특징을 보여줍니다. 토니 웩 브랜드 자체도 스트릿 감성을 추구하는 브랜드로 알려져 있습니다."
     }
   },
   {
