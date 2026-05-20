@@ -85,15 +85,26 @@ export async function analyzeOOTD(
   imageBase64: string,
   mediaType: string,
 ): Promise<AnalyzeResponse> {
+  // Two auth shapes are supported:
+  //   ANTHROPIC_API_KEY   — sends `x-api-key` header (default Anthropic console keys)
+  //   ANTHROPIC_AUTH_TOKEN — sends `Authorization: Bearer` (BizRouter, OAuth gateways)
+  // The SDK picks the right one from env automatically; we just gatekeep on
+  // presence so a missing key surfaces a clear error instead of a 401.
   const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    throw new VisionError('ANTHROPIC_API_KEY가 서버에 설정되지 않았습니다.', 500);
+  const authToken = process.env.ANTHROPIC_AUTH_TOKEN;
+  if (!apiKey && !authToken) {
+    throw new VisionError(
+      'ANTHROPIC_API_KEY 또는 ANTHROPIC_AUTH_TOKEN이 서버에 설정되지 않았습니다.',
+      500,
+    );
   }
   if (!SUPPORTED_MEDIA.has(mediaType)) {
     throw new VisionError(`지원하지 않는 이미지 형식입니다: ${mediaType}`, 415);
   }
 
-  const client = new Anthropic({ apiKey });
+  // Constructor with no args → SDK reads ANTHROPIC_API_KEY / ANTHROPIC_AUTH_TOKEN
+  // / ANTHROPIC_BASE_URL from env. Explicit args win if both are set.
+  const client = new Anthropic();
   let msg;
   try {
     msg = await client.messages.create({
