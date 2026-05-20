@@ -4,11 +4,12 @@
 // props (matches, userDistribution) instead of the prototype's globals.
 
 import React from 'react';
-import { COLORS, CTA, IdolPortraitOrPhoto, proxiedImage } from './ui';
+import { COLORS, CTA, BeRealFrame, IdolPortraitOrPhoto, proxiedImage } from './ui';
 
 export default function ResultScreen({
   matches,
   userDistribution,
+  userSlot,
   onRetry,
   onShare,
   primaryIdx,
@@ -88,24 +89,26 @@ export default function ResultScreen({
           <span>ID&nbsp;#0A9F2C</span>
         </div>
 
-        <div style={{ position: 'relative' }}>
-          <IdolPortraitOrPhoto
-            seed={primary.seed}
-            imageUrl={primary.imageUrl}
-            // Hide the corner label when a real photo is rendered — the photo
-            // already carries the visual information and the label overlapped
-            // with the name pinned to the bottom-left.
-            label={primary.imageUrl ? null : `${primary.primary}.PRIMARY`}
-            ratio="3 / 4"
-          />
+        <BeRealFrame
+          idolSeed={primary.seed}
+          idolImageUrl={primary.imageUrl}
+          // Hide the corner label when a real photo is rendered — the photo
+          // already carries the visual information and the label overlapped
+          // with the name pinned to the bottom-left.
+          idolLabel={primary.imageUrl ? null : `${primary.primary}.PRIMARY`}
+          ratio="3 / 4"
+          userSlot={userSlot}
+          pipSize="md"
+        >
           {step >= 1 && (
             <div className="rise" style={{
-              position: 'absolute', top: 14, right: 14,
+              position: 'absolute', bottom: 14, right: 14,
               background: 'rgba(14,17,23,0.78)',
               border: `1px solid ${COLORS.accent}`,
               padding: '8px 12px',
               fontFamily: 'JetBrains Mono, monospace',
               backdropFilter: 'blur(6px)',
+              zIndex: 5,
             }}>
               <div style={{ fontSize: 9, letterSpacing: 2, color: COLORS.muted }}>MATCH</div>
               <div style={{ fontSize: 26, color: COLORS.accent, fontWeight: 700, lineHeight: 1, marginTop: 2 }}>
@@ -116,8 +119,9 @@ export default function ResultScreen({
 
           {step >= 2 && (
             <div className="rise" style={{
-              position: 'absolute', left: 16, bottom: 16, right: 16,
+              position: 'absolute', left: 16, bottom: 16, right: 120,
               display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between',
+              zIndex: 5,
             }}>
               <div>
                 <div style={{
@@ -147,7 +151,7 @@ export default function ResultScreen({
               </div>
             </div>
           )}
-        </div>
+        </BeRealFrame>
 
         {step >= 3 && (
           <div className="rise" style={{

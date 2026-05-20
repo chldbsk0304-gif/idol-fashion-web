@@ -200,6 +200,86 @@ export function FakePhoto({ seed = 1, label, height = '100%', width = '100%' }) 
   );
 }
 
+// BeReal-style frame: main idol photo + small user PIP at top-left.
+// Reused at both the 3:4 result share-card and the 9:16 share-modal card.
+// `userSlot` is the same shape FitMatchApp keeps in state ({kind:'file', url} | null).
+// When userSlot is null/missing (e.g. a public /result/[id] view), we skip the
+// PIP entirely so the card doesn't show a fake stand-in.
+// `children` render as absolute-positioned overlays on top of the frame.
+export function BeRealFrame({
+  idolSeed = 0,
+  idolImageUrl,
+  idolLabel,
+  ratio = '3 / 4',
+  userSlot,
+  pipSize = 'md',
+  children,
+}) {
+  const dims = ({
+    sm: { w: '26%', radius: 10, crossSize: 7, inset: 10 },
+    md: { w: '30%', radius: 12, crossSize: 8, inset: 12 },
+  })[pipSize] || { w: '30%', radius: 12, crossSize: 8, inset: 12 };
+
+  const showPip = !!(userSlot && userSlot.kind === 'file' && userSlot.url);
+
+  return (
+    <div style={{ position: 'relative' }}>
+      <IdolPortraitOrPhoto
+        seed={idolSeed}
+        imageUrl={idolImageUrl}
+        label={idolLabel}
+        ratio={ratio}
+      />
+
+      {showPip && (
+        <div style={{
+          position: 'absolute',
+          top: dims.inset, left: dims.inset,
+          width: dims.w,
+          aspectRatio: '3 / 4',
+          borderRadius: dims.radius,
+          zIndex: 2,
+        }}>
+          <div style={{
+            position: 'absolute', inset: 0,
+            borderRadius: dims.radius,
+            boxShadow: '0 6px 18px rgba(0,0,0,0.25), 0 0 0 3px rgba(255,255,255,0.92)',
+          }} />
+          <div style={{
+            position: 'absolute', inset: 0,
+            borderRadius: dims.radius,
+            overflow: 'hidden',
+            background: COLORS.surface,
+          }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={userSlot.url}
+              alt=""
+              crossOrigin="anonymous"
+              style={{
+                width: '100%', height: '100%',
+                objectFit: 'cover',
+                display: 'block',
+              }}
+            />
+          </div>
+          <div style={{
+            position: 'absolute', inset: 0,
+            borderRadius: dims.radius,
+            border: `1.5px solid ${COLORS.accent}`,
+            zIndex: 3,
+            pointerEvents: 'none',
+          }} />
+          <PixelCross size={dims.crossSize} style={{ position: 'absolute', top: 5, left: 5, zIndex: 4 }} />
+          <PixelCross size={dims.crossSize} style={{ position: 'absolute', bottom: 5, right: 5, zIndex: 4 }} />
+        </div>
+      )}
+
+      {children}
+    </div>
+  );
+}
+
 // When we have a real OOTD photo for the idol, render it on top of the
 // gradient portrait so the pink glow remains as a frame and the photo is the
 // hero. Falls back to the bare portrait when imageUrl is missing.

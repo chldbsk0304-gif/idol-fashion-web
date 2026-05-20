@@ -206,6 +206,7 @@ export default function FitMatchApp() {
         <ResultScreen
           matches={matches}
           userDistribution={userDistribution}
+          userSlot={slots[0]}
           primaryIdx={primaryIdx}
           setPrimaryIdx={setPrimaryIdx}
           onRetry={reset}
@@ -217,6 +218,7 @@ export default function FitMatchApp() {
           matches={matches}
           primaryIdx={primaryIdx}
           shareUrl={shareUrl}
+          userSlot={slots[0]}
           onClose={() => setShowShare(false)}
         />
       )}

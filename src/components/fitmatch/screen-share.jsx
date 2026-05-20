@@ -13,7 +13,7 @@
 //   이미지 저장 footer — same PNG render but always downloads.
 
 import React from 'react';
-import { COLORS, CTA, IdolPortraitOrPhoto, PixelCross } from './ui';
+import { COLORS, CTA, BeRealFrame, PixelCross } from './ui';
 
 // Make sure every <img> inside the capture node has actually finished
 // downloading. html2canvas will skip half-loaded images silently.
@@ -67,7 +67,7 @@ function triggerDownload(blob, filename) {
   URL.revokeObjectURL(url);
 }
 
-export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) {
+export default function ShareScreen({ matches, primaryIdx, shareUrl, userSlot, onClose }) {
   const primary = matches[primaryIdx];
   const [target, setTarget] = React.useState(null);
   const [copied, setCopied] = React.useState(false);
@@ -192,10 +192,17 @@ export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) 
           position: 'relative',
           boxShadow: '0 30px 80px rgba(0,0,0,0.6), 0 0 60px rgba(230,57,137,0.08)',
         }}>
-          <IdolPortraitOrPhoto seed={primary.seed} imageUrl={primary.imageUrl} ratio="9 / 16" />
+          <BeRealFrame
+            idolSeed={primary.seed}
+            idolImageUrl={primary.imageUrl}
+            ratio="9 / 16"
+            userSlot={userSlot}
+            pipSize="md"
+          />
           <div style={{
             position: 'absolute', inset: 0,
             background: 'linear-gradient(180deg, rgba(11,16,20,0.55) 0%, rgba(11,16,20,0) 30%, rgba(11,16,20,0) 50%, rgba(11,16,20,0.95) 100%)',
+            pointerEvents: 'none',
           }} />
 
           <div style={{
@@ -210,12 +217,13 @@ export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) 
           </div>
 
           <div style={{
-            position: 'absolute', top: 38, right: 14,
+            position: 'absolute', bottom: 14, right: 14,
             border: `1px solid ${COLORS.accent}`,
             background: 'rgba(14,17,23,0.6)',
             padding: '8px 12px',
             fontFamily: 'JetBrains Mono, monospace',
             backdropFilter: 'blur(4px)',
+            zIndex: 5,
           }}>
             <div style={{ fontSize: 8, letterSpacing: 2, color: COLORS.muted }}>MATCH</div>
             <div style={{ fontSize: 22, color: COLORS.accent, fontWeight: 700, lineHeight: 1 }}>
@@ -224,7 +232,7 @@ export default function ShareScreen({ matches, primaryIdx, shareUrl, onClose }) 
           </div>
 
           <div style={{
-            position: 'absolute', left: 14, right: 14, bottom: 14,
+            position: 'absolute', left: 14, right: 120, bottom: 14,
           }}>
             <div style={{
               fontFamily: 'JetBrains Mono, monospace',
