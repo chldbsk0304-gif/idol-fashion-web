@@ -28,7 +28,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T09:50:47.435854"
+    "pinterest_scanned_at": "2026-05-21T09:50:47.435854",
+    "repImage": "/representative/%EC%9E%A5%EC%9B%90%EC%98%81.jpg"
   },
   "슬기": {
     "group": "레드벨벳",
@@ -61,18 +62,41 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:14:49.246908"
+    "pinterest_scanned_at": "2026-05-21T11:14:49.246908",
+    "repImage": "/representative/%EC%8A%AC%EA%B8%B0.jpg"
   },
   "해린": {
     "group": "뉴진스",
-    "total_items": 3,
+    "total_items": 16,
     "full_distribution": {
-      "미니멀": 2,
-      "스트릿": 1
+      "캐주얼": 6,
+      "스포티": 5,
+      "프레피": 2,
+      "걸리시": 1,
+      "미니멀": 1,
+      "시크": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 6,
+      "pct": 0.38
+    },
+    "secondary": [
+      {
+        "style": "스포티",
+        "count": 5,
+        "pct": 0.31
+      },
+      {
+        "style": "프레피",
+        "count": 2,
+        "pct": 0.13
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:56:12.234081",
+    "repImage": "/representative/%ED%95%B4%EB%A6%B0.jpg"
   },
   "닝닝": {
     "group": "에스파",
@@ -103,7 +127,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:48:04.438528"
+    "pinterest_scanned_at": "2026-05-21T11:48:04.438528",
+    "repImage": "/representative/%EB%8B%9D%EB%8B%9D.jpg"
   },
   "민주": {
     "group": "아일릿",
@@ -135,7 +160,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T10:53:14.332581"
+    "pinterest_scanned_at": "2026-05-21T10:53:14.332581",
+    "repImage": "/representative/%EB%AF%BC%EC%A3%BC.jpg"
   },
   "샤오팅": {
     "group": "케플러",
@@ -167,17 +193,39 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:39:36.095085"
+    "pinterest_scanned_at": "2026-05-21T17:39:36.095085",
+    "repImage": "/representative/%EC%83%A4%EC%98%A4%ED%8C%85.jpg"
   },
   "김채원": {
     "group": "르세라핌",
-    "total_items": 2,
+    "total_items": 8,
     "full_distribution": {
-      "걸리시": 2
+      "걸리시": 4,
+      "캐주얼": 2,
+      "프레피": 1,
+      "스포티": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 4,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.25
+      },
+      {
+        "style": "프레피",
+        "count": 1,
+        "pct": 0.13
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:03:37.489706",
+    "repImage": "/representative/%EA%B9%80%EC%B1%84%EC%9B%90.jpg"
   },
   "채령": {
     "group": "있지",
@@ -211,7 +259,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T13:33:20.875745"
+    "pinterest_scanned_at": "2026-05-21T13:33:20.875745",
+    "repImage": "/representative/%EC%B1%84%EB%A0%B9.jpg"
   },
   "하루나": {
     "group": "빌리",
@@ -242,7 +291,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T12:11:23.515301"
+    "pinterest_scanned_at": "2026-05-21T12:11:23.515301",
+    "repImage": "/representative/%ED%95%98%EB%A3%A8%EB%82%98.jpg"
   },
   "아린": {
     "group": "오마이걸",
@@ -273,7 +323,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:52:47.362348"
+    "pinterest_scanned_at": "2026-05-21T11:52:47.362348",
+    "repImage": "/representative/%EC%95%84%EB%A6%B0.jpg"
   },
   "김채현": {
     "group": "Kep1er",
@@ -304,7 +355,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:23:21.868398"
+    "pinterest_scanned_at": "2026-05-21T17:23:21.868398",
+    "repImage": "/representative/%EA%B9%80%EC%B1%84%ED%98%84.jpg"
   },
   "수이": {
     "group": "키키",
@@ -335,19 +387,41 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:39:02.377569"
+    "pinterest_scanned_at": "2026-05-21T11:39:02.377569",
+    "repImage": "/representative/%EC%88%98%EC%9D%B4.jpg"
   },
   "이채영": {
     "group": "프로미스나인",
-    "total_items": 3,
+    "total_items": 11,
     "full_distribution": {
+      "캐주얼": 3,
+      "스포티": 2,
+      "프레피": 2,
+      "로맨틱": 2,
       "걸리시": 1,
-      "미니멀": 1,
       "스트릿": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 3,
+      "pct": 0.27
+    },
+    "secondary": [
+      {
+        "style": "프레피",
+        "count": 2,
+        "pct": 0.18
+      },
+      {
+        "style": "로맨틱",
+        "count": 2,
+        "pct": 0.18
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:47:14.463997",
+    "repImage": "/representative/%EC%9D%B4%EC%B1%84%EC%98%81.jpg"
   },
   "규진": {
     "group": "엔믹스",
@@ -380,30 +454,69 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:45:24.801748"
+    "pinterest_scanned_at": "2026-05-21T11:45:24.801748",
+    "repImage": "/representative/%EA%B7%9C%EC%A7%84.jpg"
   },
   "최예나": {
     "group": "솔로",
-    "total_items": 3,
+    "total_items": 12,
     "full_distribution": {
-      "레트로": 1,
-      "로맨틱": 1,
-      "미니멀": 1
+      "걸리시": 7,
+      "캐주얼": 3,
+      "스트릿": 2
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 7,
+      "pct": 0.58
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.25
+      },
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.17
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:48:43.243555",
+    "repImage": "/representative/%EC%B5%9C%EC%98%88%EB%82%98.jpg"
   },
   "김가을": {
     "group": "아이브",
-    "total_items": 2,
+    "total_items": 9,
     "full_distribution": {
-      "걸리시": 1,
+      "걸리시": 4,
+      "캐주얼": 3,
+      "레트로": 1,
       "로맨틱": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 4,
+      "pct": 0.44
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.33
+      },
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.11
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:58:31.658043",
+    "repImage": "/representative/%EA%B9%80%EA%B0%80%EC%9D%84.jpg"
   },
   "가을": {
     "group": "아이브",
@@ -435,7 +548,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:09:33.401497"
+    "pinterest_scanned_at": "2026-05-21T11:09:33.401497",
+    "repImage": "/representative/%EA%B0%80%EC%9D%84.jpg"
   },
   "박소현": {
     "group": "트리플에스",
@@ -477,7 +591,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:12:33.440125"
+    "pinterest_scanned_at": "2026-05-21T11:12:33.440125",
+    "repImage": "/representative/%EC%84%A4%EC%9C%A4.jpg"
   },
   "백지헌": {
     "group": "프로미스나인",
@@ -509,7 +624,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:36:32.001759"
+    "pinterest_scanned_at": "2026-05-21T17:36:32.001759",
+    "repImage": "/representative/%EB%B0%B1%EC%A7%80%ED%97%8C.jpg"
   },
   "우기": {
     "group": "아이들",
@@ -539,7 +655,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:14:54.172194"
+    "pinterest_scanned_at": "2026-05-21T17:14:54.172194",
+    "repImage": "/representative/%EC%9A%B0%EA%B8%B0.jpg"
   },
   "김유연": {
     "group": "트리플에스",
@@ -580,7 +697,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T10:50:56.780363"
+    "pinterest_scanned_at": "2026-05-21T10:50:56.780363",
+    "repImage": "/representative/%EB%A0%88%EC%9D%B4.jpg"
   },
   "권은비": {
     "group": "soloist",
@@ -608,7 +726,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:20:43.223297"
+    "pinterest_scanned_at": "2026-05-21T17:20:43.223297",
+    "repImage": "/representative/%EA%B6%8C%EC%9D%80%EB%B9%84.jpg"
   },
   "유나": {
     "group": "있지",
@@ -651,7 +770,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T12:01:13.113191"
+    "pinterest_scanned_at": "2026-05-21T12:01:13.113191",
+    "repImage": "/representative/%EC%A7%80%EC%A0%A4.jpg"
   },
   "비비": {
     "group": "ARTMS",
@@ -680,7 +800,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:08:20.432456"
+    "pinterest_scanned_at": "2026-05-21T17:08:20.432456",
+    "repImage": "/representative/%EB%B9%84%EB%B9%84.jpg"
   },
   "경리": {
     "group": "나인뮤지스",
@@ -721,7 +842,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:37:53.424936"
+    "pinterest_scanned_at": "2026-05-21T17:37:53.424936",
+    "repImage": "/representative/%EC%82%AC%EC%BF%A0%EC%95%BC.jpg"
   },
   "예원": {
     "group": "피프티피프티",
@@ -794,7 +916,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:05:19.798847"
+    "pinterest_scanned_at": "2026-05-21T11:05:19.798847",
+    "repImage": "/representative/%EC%B8%84.jpg"
   },
   "하음": {
     "group": "키키",
@@ -826,7 +949,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:35:04.600490"
+    "pinterest_scanned_at": "2026-05-21T11:35:04.600490",
+    "repImage": "/representative/%ED%95%98%EC%9D%8C.jpg"
   },
   "채영": {
     "group": "트와이스",
@@ -867,7 +991,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T10:57:39.603784"
+    "pinterest_scanned_at": "2026-05-21T10:57:39.603784",
+    "repImage": "/representative/%EC%9B%90%ED%9D%AC.jpg"
   },
   "윈터": {
     "group": "에스파",
@@ -900,7 +1025,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:25:14.354333"
+    "pinterest_scanned_at": "2026-05-21T11:25:14.354333",
+    "repImage": "/representative/%EC%9C%88%ED%84%B0.jpg"
   },
   "카리나": {
     "group": "에스파",
@@ -930,7 +1056,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:19:18.850678"
+    "pinterest_scanned_at": "2026-05-21T17:19:18.850678",
+    "repImage": "/representative/%EC%B9%B4%EB%A6%AC%EB%82%98.jpg"
   },
   "김나경": {
     "group": "트리플에스",
@@ -971,7 +1098,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T13:31:29.884709"
+    "pinterest_scanned_at": "2026-05-21T13:31:29.884709",
+    "repImage": "/representative/%ED%82%A4%EC%95%BC.jpg"
   },
   "리아": {
     "group": "있지",
@@ -1006,15 +1134,33 @@
   },
   "카르멘": {
     "group": "하츠투하츠",
-    "total_items": 3,
+    "total_items": 7,
     "full_distribution": {
-      "로맨틱": 1,
-      "미니멀": 1,
-      "클래식": 1
+      "걸리시": 5,
+      "캐주얼": 1,
+      "프레피": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 5,
+      "pct": 0.71
+    },
+    "secondary": [
+      {
+        "style": "프레피",
+        "count": 1,
+        "pct": 0.14
+      },
+      {
+        "style": "캐주얼",
+        "count": 1,
+        "pct": 0.14
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:50:18.303329",
+    "repImage": "/representative/%EC%B9%B4%EB%A5%B4%EB%A9%98.jpg"
   },
   "주은": {
     "group": "하츠투하츠",
@@ -1047,51 +1193,70 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:58:57.033223"
+    "pinterest_scanned_at": "2026-05-21T11:58:57.033223",
+    "repImage": "/representative/%EC%A3%BC%EC%9D%80.jpg"
   },
   "예온": {
     "group": "하츠투하츠",
-    "total_items": 2,
+    "total_items": 17,
     "full_distribution": {
-      "미니멀": 1,
-      "스트릿": 1
-    },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
-  },
-  "에이나": {
-    "group": "하츠투하츠",
-    "total_items": 24,
-    "full_distribution": {
-      "캐주얼": 8,
-      "걸리시": 6,
-      "스트릿": 3,
-      "프레피": 3,
-      "시크": 2,
-      "스포티": 1,
-      "미니멀": 1
+      "걸리시": 11,
+      "캐주얼": 6
     },
     "status": "ok",
     "primary": {
-      "style": "캐주얼",
-      "count": 8,
-      "pct": 0.33
+      "style": "걸리시",
+      "count": 11,
+      "pct": 0.65
     },
     "secondary": [
       {
-        "style": "걸리시",
+        "style": "캐주얼",
         "count": 6,
-        "pct": 0.25
+        "pct": 0.35
       },
       {
-        "style": "스트릿",
-        "count": 3,
-        "pct": 0.13
+        "style": "스포티",
+        "count": 0,
+        "pct": 0.0
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:40:59.793332"
+    "pinterest_scanned_at": "2026-05-21T18:21:29.207027",
+    "repImage": "/representative/%EC%98%88%EC%98%A8.jpg"
+  },
+  "에이나": {
+    "group": "하츠투하츠",
+    "total_items": 26,
+    "full_distribution": {
+      "걸리시": 9,
+      "캐주얼": 8,
+      "스트릿": 5,
+      "스포티": 2,
+      "시크": 1,
+      "프레피": 1
+    },
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 9,
+      "pct": 0.35
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 8,
+        "pct": 0.31
+      },
+      {
+        "style": "스트릿",
+        "count": 5,
+        "pct": 0.19
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:12:04.638439",
+    "repImage": "/representative/%EC%97%90%EC%9D%B4%EB%82%98.jpg"
   },
   "지우": {
     "group": "하츠투하츠",
@@ -1125,7 +1290,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:27:28.158716"
+    "pinterest_scanned_at": "2026-05-21T11:27:28.158716",
+    "repImage": "/representative/%EC%A7%80%EC%9A%B0.jpg"
   },
   "이안": {
     "group": "하츠투하츠",
@@ -1156,7 +1322,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:20:33.041736"
+    "pinterest_scanned_at": "2026-05-21T11:20:33.041736",
+    "repImage": "/representative/%EC%9D%B4%EC%95%88.jpg"
   },
   "아사": {
     "group": "베이비몬스터",
@@ -1189,7 +1356,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T10:59:38.683376"
+    "pinterest_scanned_at": "2026-05-21T10:59:38.683376",
+    "repImage": "/representative/%EC%95%84%EC%82%AC.jpg"
   },
   "이로하": {
     "group": "아일릿",
@@ -1218,41 +1386,43 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:07:21.739772"
+    "pinterest_scanned_at": "2026-05-21T11:07:21.739772",
+    "repImage": "/representative/%EC%9D%B4%EB%A1%9C%ED%95%98.jpg"
   },
   "아현": {
     "group": "베이비몬스터",
-    "total_items": 26,
+    "total_items": 29,
     "full_distribution": {
-      "걸리시": 7,
-      "캐주얼": 7,
-      "프레피": 3,
-      "로맨틱": 2,
-      "스트릿": 2,
-      "시크": 2,
+      "캐주얼": 12,
+      "걸리시": 9,
       "미니멀": 2,
+      "스트릿": 2,
+      "시크": 1,
+      "로맨틱": 1,
+      "프레피": 1,
       "스포티": 1
     },
     "status": "ok",
     "primary": {
       "style": "캐주얼",
-      "count": 7,
-      "pct": 0.35
+      "count": 12,
+      "pct": 0.41
     },
     "secondary": [
       {
         "style": "걸리시",
-        "count": 7,
-        "pct": 0.27
+        "count": 9,
+        "pct": 0.34
       },
       {
-        "style": "프레피",
-        "count": 3,
-        "pct": 0.12
+        "style": "미니멀",
+        "count": 2,
+        "pct": 0.07
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:02:54.026168"
+    "pinterest_scanned_at": "2026-05-21T18:06:10.198151",
+    "repImage": "/representative/%EC%95%84%ED%98%84.jpg"
   },
   "루카": {
     "group": "베이비몬스터",
@@ -1283,7 +1453,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:22:58.768588"
+    "pinterest_scanned_at": "2026-05-21T11:22:58.768588",
+    "repImage": "/representative/%EB%A3%A8%EC%B9%B4.jpg"
   },
   "로라": {
     "group": "베이비몬스터",
@@ -1313,7 +1484,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:06:47.979041"
+    "pinterest_scanned_at": "2026-05-21T17:06:47.979041",
+    "repImage": "/representative/%EB%A1%9C%EB%9D%BC.jpg"
   },
   "치키타": {
     "group": "베이비몬스터",
@@ -1357,7 +1529,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:43:23.146599"
+    "pinterest_scanned_at": "2026-05-21T11:43:23.146599",
+    "repImage": "/representative/%EC%B5%9C%EC%A0%95%EC%9D%80.jpg"
   },
   "지유": {
     "group": "키키",
@@ -1389,7 +1562,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:33:05.915334"
+    "pinterest_scanned_at": "2026-05-21T11:33:05.915334",
+    "repImage": "/representative/%EC%A7%80%EC%9C%A0.jpg"
   },
   "미연": {
     "group": "아이들",
@@ -1422,7 +1596,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:50:13.669783"
+    "pinterest_scanned_at": "2026-05-21T11:50:13.669783",
+    "repImage": "/representative/%EB%AF%B8%EC%97%B0.jpg"
   },
   "모카": {
     "group": "아일릿",
@@ -1453,29 +1628,69 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:36:56.286206"
+    "pinterest_scanned_at": "2026-05-21T11:36:56.286206",
+    "repImage": "/representative/%EB%AA%A8%EC%B9%B4.jpg"
   },
   "김소혜": {
     "group": "아이오아이",
-    "total_items": 2,
+    "total_items": 10,
     "full_distribution": {
-      "미니멀": 1,
-      "프레피": 1
+      "걸리시": 5,
+      "캐주얼": 4,
+      "로맨틱": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 5,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 4,
+        "pct": 0.4
+      },
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.1
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:01:58.261950",
+    "repImage": "/representative/%EA%B9%80%EC%86%8C%ED%98%9C.jpg"
   },
   "김세정": {
     "group": "아이오아이",
-    "total_items": 2,
+    "total_items": 8,
     "full_distribution": {
-      "미니멀": 1,
-      "프레피": 1
+      "캐주얼": 3,
+      "걸리시": 2,
+      "프레피": 1,
+      "로맨틱": 1,
+      "미니멀": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 3,
+      "pct": 0.38
+    },
+    "secondary": [
+      {
+        "style": "걸리시",
+        "count": 2,
+        "pct": 0.25
+      },
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.13
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:00:21.492064"
   },
   "안유진": {
     "group": "아이브",
@@ -1505,7 +1720,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:11:30.075591"
+    "pinterest_scanned_at": "2026-05-21T17:11:30.075591",
+    "repImage": "/representative/%EC%95%88%EC%9C%A0%EC%A7%84.jpg"
   },
   "이솔": {
     "group": "키키",
@@ -1539,7 +1755,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:18:18.684914"
+    "pinterest_scanned_at": "2026-05-21T11:18:18.684914",
+    "repImage": "/representative/%EC%9D%B4%EC%86%94.jpg"
   },
   "츠키": {
     "group": "빌리",
@@ -1572,18 +1789,40 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T12:09:28.789074"
+    "pinterest_scanned_at": "2026-05-21T12:09:28.789074",
+    "repImage": "/representative/%EC%B8%A0%ED%82%A4.jpg"
   },
   "카즈하": {
     "group": "르세라핌",
-    "total_items": 3,
+    "total_items": 9,
     "full_distribution": {
-      "스트릿": 2,
-      "스포티": 1
+      "캐주얼": 4,
+      "시크": 2,
+      "스포티": 1,
+      "스트릿": 1,
+      "미니멀": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 4,
+      "pct": 0.44
+    },
+    "secondary": [
+      {
+        "style": "시크",
+        "count": 2,
+        "pct": 0.22
+      },
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.11
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:52:37.461719",
+    "repImage": "/representative/%EC%B9%B4%EC%A6%88%ED%95%98.jpg"
   },
   "노지선": {
     "group": "fromis_9",
@@ -1612,7 +1851,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:27:09.573075"
+    "pinterest_scanned_at": "2026-05-21T17:27:09.573075",
+    "repImage": "/representative/%EB%85%B8%EC%A7%80%EC%84%A0.jpg"
   },
   "코토네": {
     "group": "트리플에스",
@@ -1653,7 +1893,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:17:59.059430"
+    "pinterest_scanned_at": "2026-05-21T17:17:59.059430",
+    "repImage": "/representative/%EC%A0%95%EB%B3%B4%EB%AF%BC.jpg"
   },
   "티파니": {
     "group": "소녀시대",
@@ -1695,7 +1936,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T10:55:15.122899"
+    "pinterest_scanned_at": "2026-05-21T10:55:15.122899",
+    "repImage": "/representative/%ED%83%9C%EC%97%B0.jpg"
   },
   "리즈": {
     "group": "아이브",
@@ -1725,18 +1967,37 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T12:06:39.730853"
+    "pinterest_scanned_at": "2026-05-21T12:06:39.730853",
+    "repImage": "/representative/%EB%A6%AC%EC%A6%88.jpg"
   },
   "스텔라": {
     "group": "하츠투하츠",
-    "total_items": 3,
+    "total_items": 10,
     "full_distribution": {
-      "미니멀": 2,
-      "스트릿": 1
+      "걸리시": 6,
+      "캐주얼": 3
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 6,
+      "pct": 0.6
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.3
+      },
+      {
+        "style": "스트릿",
+        "count": 0,
+        "pct": 0.1
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:44:41.740238",
+    "repImage": "/representative/%EC%8A%A4%ED%85%94%EB%9D%BC.jpg"
   },
   "배이": {
     "group": "NMIXX",
@@ -1767,7 +2028,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:34:11.552764"
+    "pinterest_scanned_at": "2026-05-21T17:34:11.552764",
+    "repImage": "/representative/%EB%B0%B0%EC%9D%B4.jpg"
   },
   "유사랑": {
     "group": "이즈나",
@@ -1797,7 +2059,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:16:29.536284"
+    "pinterest_scanned_at": "2026-05-21T17:16:29.536284",
+    "repImage": "/representative/%EC%9C%A0%EC%82%AC%EB%9E%91.jpg"
   },
   "건호": {
     "group": "코르티스",
@@ -1857,7 +2120,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:29:32.776038"
+    "pinterest_scanned_at": "2026-05-21T11:29:32.776038",
+    "repImage": "/representative/%EC%9C%A4%EC%95%84.jpg"
   },
   "하늘": {
     "group": "키스오브라이프",
@@ -1914,14 +2178,34 @@
   },
   "션": {
     "group": "빌리",
-    "total_items": 3,
+    "total_items": 9,
     "full_distribution": {
-      "미니멀": 2,
-      "로맨틱": 1
+      "캐주얼": 4,
+      "걸리시": 2,
+      "시크": 1,
+      "프레피": 1,
+      "미니멀": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 4,
+      "pct": 0.44
+    },
+    "secondary": [
+      {
+        "style": "걸리시",
+        "count": 2,
+        "pct": 0.22
+      },
+      {
+        "style": "시크",
+        "count": 1,
+        "pct": 0.11
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:43:12.567026"
   },
   "정채연": {
     "group": "DIA",
@@ -1967,7 +2251,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T11:55:32.711976"
+    "pinterest_scanned_at": "2026-05-21T11:55:32.711976",
+    "repImage": "/representative/%EC%A1%B0%EC%9D%B4.jpg"
   },
   "재민": {
     "group": "엔시티",
@@ -1981,14 +2266,33 @@
   },
   "아야카": {
     "group": "니쥬",
-    "total_items": 2,
+    "total_items": 10,
     "full_distribution": {
-      "미니멀": 1,
-      "클래식": 1
+      "걸리시": 6,
+      "캐주얼": 3,
+      "프레피": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 6,
+      "pct": 0.6
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 3,
+        "pct": 0.3
+      },
+      {
+        "style": "프레피",
+        "count": 1,
+        "pct": 0.1
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:13:22.235637",
+    "repImage": "/representative/%EC%95%84%EC%95%BC%EC%B9%B4.jpg"
   },
   "청하": {
     "group": "청하",
@@ -2002,37 +2306,95 @@
   },
   "모모": {
     "group": "트와이스",
-    "total_items": 2,
+    "total_items": 12,
     "full_distribution": {
-      "걸리시": 1,
-      "스트릿": 1
+      "캐주얼": 5,
+      "스트릿": 4,
+      "스포티": 1,
+      "미니멀": 1,
+      "시크": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 5,
+      "pct": 0.42
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 4,
+        "pct": 0.33
+      },
+      {
+        "style": "스포티",
+        "count": 1,
+        "pct": 0.08
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:08:16.657599",
+    "repImage": "/representative/%EB%AA%A8%EB%AA%A8.jpg"
   },
   "설아": {
     "group": "우주소녀",
-    "total_items": 3,
+    "total_items": 6,
     "full_distribution": {
-      "걸리시": 2,
-      "미니멀": 1
+      "캐주얼": 4,
+      "미니멀": 2
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 4,
+      "pct": 0.67
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 2,
+        "pct": 0.33
+      },
+      {
+        "style": "시크",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:41:29.028855",
+    "repImage": "/representative/%EC%84%A4%EC%95%84.jpg"
   },
   "파리타": {
     "group": "베이비몬스터",
-    "total_items": 3,
+    "total_items": 6,
     "full_distribution": {
-      "걸리시": 1,
-      "로맨틱": 1,
-      "미니멀": 1
+      "캐주얼": 3,
+      "미니멀": 1,
+      "프레피": 1,
+      "스포티": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 3,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "미니멀",
+        "count": 1,
+        "pct": 0.17
+      },
+      {
+        "style": "프레피",
+        "count": 1,
+        "pct": 0.17
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T17:53:56.138003",
+    "repImage": "/representative/%ED%8C%8C%EB%A6%AC%ED%83%80.jpg"
   },
   "전소미": {
     "group": "솔로",
@@ -2067,67 +2429,187 @@
   },
   "도훈": {
     "group": "투어스",
-    "total_items": 2,
+    "total_items": 7,
     "full_distribution": {
-      "미니멀": 1,
-      "스트릿": 1
+      "캐주얼": 4,
+      "스포티": 3
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 4,
+      "pct": 0.57
+    },
+    "secondary": [
+      {
+        "style": "스포티",
+        "count": 3,
+        "pct": 0.43
+      },
+      {
+        "style": "스트릿",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:06:38.388805",
+    "repImage": "/representative/%EB%8F%84%ED%9B%88.jpg"
   },
   "벨": {
     "group": "키스오브라이프",
-    "total_items": 2,
+    "total_items": 12,
     "full_distribution": {
-      "미니멀": 1,
-      "스트릿": 1
+      "걸리시": 6,
+      "프레피": 2,
+      "캐주얼": 2,
+      "시크": 1,
+      "로맨틱": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 6,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.17
+      },
+      {
+        "style": "프레피",
+        "count": 2,
+        "pct": 0.17
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:10:03.125788",
+    "repImage": "/representative/%EB%B2%A8.jpg"
   },
   "아테나": {
     "group": "피프티피프티",
-    "total_items": 2,
+    "total_items": 14,
     "full_distribution": {
-      "미니멀": 2
+      "걸리시": 6,
+      "캐주얼": 4,
+      "로맨틱": 3,
+      "레트로": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "걸리시",
+      "count": 6,
+      "pct": 0.43
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 4,
+        "pct": 0.29
+      },
+      {
+        "style": "로맨틱",
+        "count": 3,
+        "pct": 0.21
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:17:24.573133",
+    "repImage": "/representative/%EC%95%84%ED%85%8C%EB%82%98.jpg"
   },
   "앤톤": {
     "group": "라이즈",
-    "total_items": 2,
+    "total_items": 10,
     "full_distribution": {
-      "미니멀": 2
+      "캐주얼": 4,
+      "스트릿": 2,
+      "클래식": 1,
+      "스포티": 1,
+      "미니멀": 1,
+      "시크": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 4,
+      "pct": 0.4
+    },
+    "secondary": [
+      {
+        "style": "스트릿",
+        "count": 2,
+        "pct": 0.2
+      },
+      {
+        "style": "시크",
+        "count": 1,
+        "pct": 0.1
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:19:23.197072",
+    "repImage": "/representative/%EC%95%A4%ED%86%A4.jpg"
   },
   "아이린": {
     "group": "레드벨벳",
-    "total_items": 2,
+    "total_items": 4,
     "full_distribution": {
-      "미니멀": 1,
+      "시크": 2,
+      "로맨틱": 1,
       "캐주얼": 1
     },
     "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "primary": {
+      "style": "시크",
+      "count": 2,
+      "pct": 0.5
+    },
+    "secondary": [
+      {
+        "style": "로맨틱",
+        "count": 1,
+        "pct": 0.25
+      },
+      {
+        "style": "캐주얼",
+        "count": 1,
+        "pct": 0.25
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:14:57.552054",
+    "repImage": "/representative/%EC%95%84%EC%9D%B4%EB%A6%B0.jpg"
   },
   "나하은": {
     "group": "언차일드",
-    "total_items": 2,
+    "total_items": 6,
     "full_distribution": {
-      "스트릿": 1,
-      "스포티": 1
+      "스트릿": 4,
+      "캐주얼": 2
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "스트릿",
+      "count": 4,
+      "pct": 0.67
+    },
+    "secondary": [
+      {
+        "style": "캐주얼",
+        "count": 2,
+        "pct": 0.33
+      },
+      {
+        "style": "미니멀",
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:05:03.072280",
+    "repImage": "/representative/%EB%82%98%ED%95%98%EC%9D%80.jpg"
   },
   "나현": {
     "group": "앳하트",
@@ -2160,7 +2642,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T12:04:41.780054"
+    "pinterest_scanned_at": "2026-05-21T12:04:41.780054",
+    "repImage": "/representative/%EB%82%98%ED%98%84.jpg"
   },
   "사나": {
     "group": "트와이스",
@@ -2189,7 +2672,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:09:55.572831"
+    "pinterest_scanned_at": "2026-05-21T17:09:55.572831",
+    "repImage": "/representative/%EC%82%AC%EB%82%98.jpg"
   },
   "리쿠": {
     "group": "엔시티위시",
@@ -2223,14 +2707,33 @@
   },
   "송하영": {
     "group": "프로미스나인",
-    "total_items": 2,
+    "total_items": 10,
     "full_distribution": {
-      "미니멀": 1,
-      "클래식": 1
+      "캐주얼": 6,
+      "걸리시": 3,
+      "스포티": 1
     },
-    "status": "insufficient_data",
-    "primary": null,
-    "secondary": []
+    "status": "ok",
+    "primary": {
+      "style": "캐주얼",
+      "count": 6,
+      "pct": 0.6
+    },
+    "secondary": [
+      {
+        "style": "걸리시",
+        "count": 3,
+        "pct": 0.3
+      },
+      {
+        "style": "스포티",
+        "count": 1,
+        "pct": 0.1
+      }
+    ],
+    "source": "pinterest",
+    "pinterest_scanned_at": "2026-05-21T18:11:39.356118",
+    "repImage": "/representative/%EC%86%A1%ED%95%98%EC%98%81.jpg"
   },
   "준휘": {
     "group": "세이마이네임",
@@ -2270,7 +2773,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:25:37.515938"
+    "pinterest_scanned_at": "2026-05-21T17:25:37.515938",
+    "repImage": "/representative/%EB%82%98%EB%9D%A0.jpg"
   },
   "헤이즈": {
     "group": null,
@@ -2461,7 +2965,8 @@
       }
     ],
     "source": "pinterest",
-    "pinterest_scanned_at": "2026-05-21T17:32:20.858295"
+    "pinterest_scanned_at": "2026-05-21T17:32:20.858295",
+    "repImage": "/representative/%EB%B0%A9%EC%A7%80%EB%AF%BC.jpg"
   },
   "정세비": {
     "group": "이즈나",

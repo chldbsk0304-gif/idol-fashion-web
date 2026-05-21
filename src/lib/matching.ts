@@ -41,6 +41,10 @@ interface RawIdolEntry {
   primary: { style: string; count: number; pct: number } | null;
   secondary: { style: string; count: number; pct: number }[];
   full_distribution: Record<string, number>;
+  // Pinterest 스캔 파이프라인이 큐레이션한 대표 이미지 (Next.js public/ 기준
+  // 절대 URL, 예: "/representative/에이나.jpg"). 없으면 items_with_style 기반
+  // 휴리스틱으로 떨어진다.
+  repImage?: string;
 }
 
 type RawIdolDB = Record<string, RawIdolEntry>;
@@ -105,13 +109,18 @@ function pickItemsForIdol(
 }
 
 // Pick a hero image for an idol whose photo should match the style on the
-// card. Walks primary → each secondary → anything. Inside each style we take
-// the first item that has an image URL (data is already ordered by post in
-// items_with_style.json; "first" is fine).
+// card. Preference order:
+//   1) entry.repImage — Pinterest 스캔 파이프라인이 골라 큐레이션한 사진.
+//      대시보드에 노출되는 그 사진과 동일하다.
+//   2) items_with_style 휴리스틱 — primary 스타일 → secondary → anything.
+//
+// (2) 는 repImage 가 없는 아이돌(주로 스캔 미진행 / LLM 이 대표 선정 실패한
+// 케이스)을 위한 fallback.
 function pickImageForIdol(
   entry: RawIdolEntry,
   items: IdolItem[],
 ): string | undefined {
+  if (entry.repImage) return entry.repImage;
   if (!items.length) return undefined;
   const stylePref: string[] = [];
   if (entry.primary?.style) stylePref.push(entry.primary.style);
